@@ -9,14 +9,25 @@ A dashboard page with multiple charts that update from the same data
 
 A server that performs multiple manipulations on data in a database prior to visualization (must be approved)
 
-Who - 
-Why - 
-What -
+What - Museums and their locations in the United States
+Who - The United States Travel and Tourism Administration - Guide for local/international tourists 
+Why - Market Museums as travel hotspots for international and local tourists
+
+Views
+- Number of Museums
+- State level visualization of each Museum - Map
+- Proximity to Major cities of the State - how many museums are there in a major city vs outside of them
+- If attendance found, build a heat map
+- If attendance found, build annual attendance heatmap
+- Using Income/Revenue - indicate how large of exhibitions are at display
+- Total state revenue of Museums and then a correlation of number of museums and revenue
+
 
 
 Specific type of Javascript library not used in class
 
 additional library to include - Bideo.js - Background running video
+
 
 
 Requirements:
