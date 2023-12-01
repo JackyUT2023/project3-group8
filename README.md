@@ -1,18 +1,13 @@
 # project3-group8
 This is our bootcamp project #3.
 
-Path - 
+Group 8 - Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi
 
-A combination of web scraping and Leaflet or Plotly
-
-A dashboard page with multiple charts that update from the same data
-
-A server that performs multiple manipulations on data in a database prior to visualization (must be approved)
+## Path - A combination of web scraping and Leaflet or Plotly
 
 What - Museums and their locations in the United States
 Who - The United States Travel and Tourism Administration - Guide for local/international tourists 
 Why - Market Museums as travel hotspots for international and local tourists
-
 
 Views
 - Number of Museums
