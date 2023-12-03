@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootcamp Group 8</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- D3 JavaScript code -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+crossorigin="" />
+
+<!-- Leaflet JavaScript code -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+crossorigin=""></script>
+
+<!-- Our CSS -->
+<link rel="stylesheet" type="text/css" href="myStyle.css">
+
+</head>
+<body>
+
+<h2>Bootcamp Project 3</h2>
+<p>In this project, we are going to make a Global Museum Dashboard.</p>
+<p>We are group 8: Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi</p>
+
+<header>
+  <h2>Global Museum Dashboard</h2>
+</header>
+
+<section>
+  <nav>
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'North America')" id="defaultOpen">North America</button>
+        <button class="tablinks" onclick="openCity(event, 'Europe')">Europe</button>
+        <button class="tablinks" onclick="openCity(event, 'Aisa')">Aisa</button>
+        <button class="tablinks" onclick="openCity(event, 'Africa')">Africa</button>
+    </div>
+  </nav>
+  
+  <article>
+    <div id="North America" class="tabcontent">
+        <table style="width: 100%;">
+            <tbody>
+                <tr>
+                    <td style="width: 50%;">
+                        <table style="width: 50%;">
+                            <tr>
+                                <h3>North America</h3>
+                                <p>North America contains USA and Canada.</p>
+                            </tr>
+                            <tr>
+                                <select name="Data" id="MuseumData" style="font-size: 18px;">
+                                <option value="VisitCount">Visit Count</option>
+                                <option value="TicketSales">Ticket Sales</option>
+                                </select>
+                                <div id="plot" style="width: 50%;"></div>
+                                <script src="plots.js"></script>                             
+                            </tr>
+                        </table>
+                    </td>
+                    <td style="width: 50%; padding: 20px;">
+                        <h3>Museum Locations:</h3>
+                        <!-- The div where we'll insert our map -->
+                        <div id="map"></div>
+                        <!-- JavaScript file -->
+                        <script type="text/javascript" src="logic1.js"></script>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="Europe" class="tabcontent">
+        <h3>Europe</h3>
+        <p>Europe includes England, France, German etc.</p>
+    </div>
+      
+    <div id="Aisa" class="tabcontent">
+        <h3>Aisa</h3>
+        <p>Aisa includes China, Japan, Korea, India etc.</p>
+    </div>
+    
+    <div id="Africa" class="tabcontent">
+        <h3>Africa</h3>
+        <p>Africa includes South Africa etc.</p>
+    </div>
+
+    <script type="text/javascript" src="TabControl.js"></script>
+
+  </article>
+
+</section>
+
+
+
+<footer>
+  <p>Copyright © 2023 U of T SCS Bootcamp Group 8. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
