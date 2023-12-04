@@ -45,3 +45,10 @@ additional library to include - Bideo.js - Background running video, Plyr
 --------------------
 A view has 2 or more visualizations, 3 views would have 6+ visualizations at a bare minimum.
 Story over the minimums.
+
+### TEAM MEMBER ROLES
+--------------------
+Chandler Mclaren - data cleaning backend - API search
+Jacky Zhang - 
+Yug Sharma - SQL/Alchemy/Mongo database along with relational diagrams - use the csvs
+Ibsar Hashmi - add Javascript React to the index/js - Major City/Museum API search
