@@ -49,6 +49,6 @@ Story over the minimums.
 ### TEAM MEMBER ROLES
 --------------------
 Chandler Mclaren - data cleaning backend - API search
-Jacky Zhang - 
+Jacky Zhang - Visualization buildout
 Yug Sharma - SQL/Alchemy/Mongo database along with relational diagrams - use the csvs
-Ibsar Hashmi - add Javascript React to the index/js - Major City/Museum API search
+Ibsar Hashmi - add Javascript React to the index.js - Major City/Museum API search

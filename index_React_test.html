@@ -20,10 +20,10 @@ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
 crossorigin=""></script>
 
 <!-- JavaScript React -->
-<!-- <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script> -->
-<!-- <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script> -->
-<!-- <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script> -->
-<!-- <script type="text/babel" src="Logic_React.js"></script> -->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script>
+<script type="text/babel" src="Logic_React.js"></script>
 
 <!-- Our CSS -->
 <link rel="stylesheet" type="text/css" href="myStyle.css">
@@ -42,6 +42,10 @@ crossorigin=""></script>
 <section>
   <nav>
     <!-- Tab links -->
+
+    <div id="tablinks_widget"></div>
+
+
     <div class="tab">
         <button class="tablinks" onclick="openCity(event, 'North America')" id="defaultOpen">North America</button>
         <button class="tablinks" onclick="openCity(event, 'Europe')">Europe</button>
@@ -82,6 +86,8 @@ crossorigin=""></script>
             </tbody>
         </table>
     </div>
+
+    <div id="tabcontent_widget"></div>
 
     <div id="Europe" class="tabcontent">
         <h3>Europe</h3>
