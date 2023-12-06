@@ -26,7 +26,7 @@ crossorigin=""></script>
 <body>
 
 <h2>Bootcamp Project 3</h2>
-<p>In this project, we are going to make a Global Museum Dashboard.</p>
+<p>In this project, we are going to make a dashboard about the museums in United States.</p>
 <p>We are group 8: Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi</p>
 
 <header>
@@ -38,7 +38,7 @@ crossorigin=""></script>
     <!-- Tab links -->
     <div class="tab">
         <button class="tablinks" onclick="openCity(event, 'Museum Location')" id="defaultOpen">Museum Location</button>
-        <button class="tablinks" onclick="openCity(event, 'Attendance Heatmap')">Attendance Heatmap</button>
+        <button class="tablinks" onclick="openCity(event, 'Heatmap')">Heatmap(TBD)</button>
         <button class="tablinks" onclick="openCity(event, 'Revenue')">Revenue</button>
     </div>
   </nav>
@@ -52,11 +52,13 @@ crossorigin=""></script>
                         <table style="width: 50%;">
                             <tr>
                                 <!-- Text box on top of the bar chart. -->
-                                <h3>Museum Location</h3>
+                                <h3>What will be showing in the section</h3>
                                 <p>In this section, Number of Museums will be shown. <br>
-                                    State level visualization of each Museum - Map will be shown. <br>
-                                    Proximity to Major cities of the State - how many museums are there in a major city vs outside of them will be shown.
-                                </p>
+                                <a style="color: brown;"> To be decided: mayba use a pie chart???</a></p>
+                                <p> State level visualization of each Museum - Map will be shown.<br>
+                                <a style="color: brown;">(Rightnow, I am using population as fake data. Once we have the Museum location, we should be able to calculate the density of the Museum.)</a> </p>    
+                                <p>Proximity to Major cities of the State - how many museums are there in a major city vs outside of them will be shown.<br>   
+                                <a style="color: brown;">(Using fake data, the bar chart is showing the museums numbers.)</a></p> 
                             </tr>
                             <tr>
                                 <!-- Dropdown box and bar chart. -->
@@ -74,7 +76,7 @@ crossorigin=""></script>
                         <!-- The div where we'll insert our map -->
                         <div id="map"></div>
                         <!-- JavaScript file -->
-                        <script type="text/javascript" src="FakeMuseums.json"></script>
+                        <script type="text/javascript" src="us-states_fakedata.js"></script>
                         <script type="text/javascript" src="logic1.js"></script>
                     </td>
                 </tr>
@@ -82,11 +84,20 @@ crossorigin=""></script>
         </table>
     </div>
 
-    <div id="Attendance Heatmap" class="tabcontent">
-        <h3>Attendance Heatmap</h3>
+    <div id="Heatmap" class="tabcontent">
+        <h3>Heatmap</h3>
         <p>If attendance found, build a heat map<br>
-            If attendance found, build annual attendance heatmap
-        </p>
+            <a style="color: brown;">If attendance found, build annual attendance heatmap, but it seems we don't have data.</a></p>
+        <p>Alternatively, build a rating map<br>
+            <a style="color: brown;">Alternatively, build a map with different rate to show how popular the museum is.</a></p>
+        <table>
+        <div id="map2"></div>
+                <!-- JavaScript file -->
+                <script type="text/javascript" src="FakeMuseums.json"></script>
+                <script type="text/javascript" src="logic2.js"></script>
+
+        </table>
+        
     </div>
       
     <div id="Revenue" class="tabcontent">
