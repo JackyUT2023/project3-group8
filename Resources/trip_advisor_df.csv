@@ -46,7 +46,6 @@ Longitude,Latitude,MuseumName,Rank,Rating,ReviewCount
 -74.00670099999999,40.7412308,Ground Zero Museum Workshop,19,5.0,"2,588"
 -118.3614346,34.0619358,Petersen Automotive Museum,10,4.5,"1,018"
 -94.5859443,39.0810093,National World War I Museum and Memorial,1,5.0,"3,163"
-,,Bishop Museum,15,4.5,"1,817"
 -117.175658,32.7137622,USS Midway Museum,1,4.5,"15,105"
 -90.2004238,38.6335758,City Museum,4,4.5,"4,331"
 -122.497668,37.7813454,Legion of Honor,16,4.5,"1,431"
@@ -109,7 +108,6 @@ Longitude,Latitude,MuseumName,Rank,Rating,ReviewCount
 -95.3856342,29.7251287,Holocaust Museum Houston,10,4.5,608
 -105.9264916,35.6640459,Museum of International Folk Art,1,4.5,"1,366"
 -73.759688,42.650347,New York State Museum,2,4.5,685
-,,US Army Museum of Hawaii,18,4.5,"1,411"
 -73.9932872,40.7602619,"Intrepid Sea, Air & Space Museum",38,4.5,"5,657"
 -118.1592383,34.1462414,Norton Simon Museum,1,5.0,839
 -70.2622758,43.65386729999999,Portland Museum of Art,2,4.5,984
@@ -224,7 +222,6 @@ Longitude,Latitude,MuseumName,Rank,Rating,ReviewCount
 -122.4545563,37.7716702,Golden Gate Park,6,4.5,"6,648"
 -97.51703,35.472973,Oklahoma City National Memorial & Museum,1,5.0,"2,942"
 -93.2573426,44.978894,Mill City Museum,7,4.5,937
-,,Honolulu Museum of Art,19,4.5,835
 -104.8955075,39.7208907,Wings Over the Rockies Air & Space Museum,17,4.5,418
 -122.4160525,37.7802559,Asian Art Museum,20,4.5,"1,084"
 -83.0672037,42.3597913,Detroit Historical Museum,12,4.5,232
@@ -343,7 +340,6 @@ Longitude,Latitude,MuseumName,Rank,Rating,ReviewCount
 -122.351371,47.619436,Pacific Science Center,40,4.0,"1,083"
 -95.4301132,29.9894725,National Museum of Funeral History,15,4.5,323
 -82.6405387,27.7705369,Florida Holocaust Museum,4,4.5,348
-,,Lone Star Flight Museum,8,4.5,348
 -87.5974912,41.7892027,Oriental Institute Museum,26,4.5,414
 -90.2859825,38.6461342,Missouri History Museum,18,4.5,458
 -86.1699089,39.7688619,Indiana State Museum,14,4.5,366
@@ -394,7 +390,6 @@ Longitude,Latitude,MuseumName,Rank,Rating,ReviewCount
 -84.42231850000002,33.6561957,Delta Flight Museum,32,4.5,175
 -97.4711308,35.5252008,Science Museum Oklahoma,5,4.5,573
 -79.99218929999999,40.4465796,Senator John Heinz History Center,8,4.5,827
-,,The Bailey-Matthews National Shell Museum,5,4.5,"1,036"
 -85.30620549999999,35.0558558,Hunter Museum of American Art,11,4.5,375
 -76.22332020000002,38.785393,Chesapeake Bay Maritime Museum,1,4.5,645
 -106.6723898,35.09532799999999,Turquoise Museum,26,4.5,152
@@ -644,7 +639,6 @@ Longitude,Latitude,MuseumName,Rank,Rating,ReviewCount
 -85.057484,41.3558172,Auburn Cord Duesenberg Automobile Museum,1,5.0,332
 -84.9740651,32.4670934,Columbus Museum,4,4.5,106
 -96.3054385,39.2025604,Oz Museum,1,4.5,251
-,,Pearl Harbor / WW II Valor in the Pacific National Monument,2,4.5,"8,549"
 -93.0544025,34.5123029,Gangster Museum of America,18,3.5,363
 -110.763716,43.48031599999999,Jackson Hole Museum,24,4.0,102
 -78.84343880000002,42.90591810000001,Buffalo Museum of Science,24,4.0,159
