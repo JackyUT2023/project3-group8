@@ -52,3 +52,5 @@ Story over the minimums.
 - Jacky Zhang - Visualization buildout
 - Yug Sharma - SQL/Alchemy/Mongo database along with relational diagrams - use the csvs
 - Ibsar Hashmi - add Javascript React to the index.js - Major City/Museum API search
+
+### Page link: https://jackyut2023.github.io/project3-group8/
