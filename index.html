@@ -19,12 +19,6 @@ crossorigin="" />
 integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
 crossorigin=""></script>
 
-<!-- JavaScript React -->
-<!-- <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script> -->
-<!-- <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script> -->
-<!-- <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script> -->
-<!-- <script type="text/babel" src="Logic_React.js"></script> -->
-
 <!-- Our CSS -->
 <link rel="stylesheet" type="text/css" href="myStyle.css">
 
@@ -36,35 +30,39 @@ crossorigin=""></script>
 <p>We are group 8: Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi</p>
 
 <header>
-  <h2>Global Museum Dashboard</h2>
+  <h2>Museums in United States Dashboard</h2>
 </header>
 
 <section>
   <nav>
     <!-- Tab links -->
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'North America')" id="defaultOpen">North America</button>
-        <button class="tablinks" onclick="openCity(event, 'Europe')">Europe</button>
-        <button class="tablinks" onclick="openCity(event, 'Aisa')">Aisa</button>
-        <button class="tablinks" onclick="openCity(event, 'Africa')">Africa</button>
+        <button class="tablinks" onclick="openCity(event, 'Museum Location')" id="defaultOpen">Museum Location</button>
+        <button class="tablinks" onclick="openCity(event, 'Attendance Heatmap')">Attendance Heatmap</button>
+        <button class="tablinks" onclick="openCity(event, 'Revenue')">Revenue</button>
     </div>
   </nav>
   
   <article>
-    <div id="North America" class="tabcontent">
+    <div id="Museum Location" class="tabcontent">
         <table style="width: 100%;">
             <tbody>
                 <tr>
                     <td style="width: 50%;">
                         <table style="width: 50%;">
                             <tr>
-                                <h3>North America</h3>
-                                <p>North America contains USA and Canada.</p>
+                                <!-- Text box on top of the bar chart. -->
+                                <h3>Museum Location</h3>
+                                <p>In this section, Number of Museums will be shown. <br>
+                                    State level visualization of each Museum - Map will be shown. <br>
+                                    Proximity to Major cities of the State - how many museums are there in a major city vs outside of them will be shown.
+                                </p>
                             </tr>
                             <tr>
+                                <!-- Dropdown box and bar chart. -->
                                 <select name="Data" id="MuseumData" style="font-size: 18px;">
-                                <option value="VisitCount">Visit Count</option>
-                                <option value="TicketSales">Ticket Sales</option>
+                                <option value="States">States</option>
+                                <option value="MajorCity">MajorCity</option>
                                 </select>
                                 <div id="plot" style="width: 50%;"></div>
                                 <script src="plots.js"></script>                             
@@ -76,6 +74,7 @@ crossorigin=""></script>
                         <!-- The div where we'll insert our map -->
                         <div id="map"></div>
                         <!-- JavaScript file -->
+                        <script type="text/javascript" src="FakeMuseums.json"></script>
                         <script type="text/javascript" src="logic1.js"></script>
                     </td>
                 </tr>
@@ -83,19 +82,17 @@ crossorigin=""></script>
         </table>
     </div>
 
-    <div id="Europe" class="tabcontent">
-        <h3>Europe</h3>
-        <p>Europe includes England, France, German etc.</p>
+    <div id="Attendance Heatmap" class="tabcontent">
+        <h3>Attendance Heatmap</h3>
+        <p>If attendance found, build a heat map<br>
+            If attendance found, build annual attendance heatmap
+        </p>
     </div>
       
-    <div id="Aisa" class="tabcontent">
-        <h3>Aisa</h3>
-        <p>Aisa includes China, Japan, Korea, India etc.</p>
-    </div>
-    
-    <div id="Africa" class="tabcontent">
-        <h3>Africa</h3>
-        <p>Africa includes South Africa etc.</p>
+    <div id="Revenue" class="tabcontent">
+        <h3>Income/Revenue</h3>
+        <p>Using Income/Revenue - indicate how large of exhibitions are at display<br>
+            Total state revenue of Museums and then a correlation of number of museums and revenue</p>
     </div>
 
     <script type="text/javascript" src="TabControl.js"></script>
