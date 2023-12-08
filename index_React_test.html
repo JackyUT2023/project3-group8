@@ -1,6 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
 <title>Bootcamp Group 8</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,20 +23,36 @@ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
 crossorigin=""></script>
 
 <!-- JavaScript React -->
-<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-<script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script>
-<script type="text/babel" src="Logic_React.js"></script>
+<!-- <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script> -->
+<!-- <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script> -->
+<!-- <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script> -->
+<!-- <script type="text/babel" src="Logic_React.js"></script> -->
 
 <!-- Our CSS -->
-<link rel="stylesheet" type="text/css" href="myStyle.css">
+<link rel="stylesheet" type="text/css" href="myStyle_test.css">
 
 </head>
+</div>
+
 <body>
 
-<h2>Bootcamp Project 3</h2>
-<p>In this project, we are going to make a Global Museum Dashboard.</p>
-<p>We are group 8: Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi</p>
+    <div id="container">
+        <video id="background_video" loop muted autoplay>
+          <source src="museum.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div id="video_cover"></div>
+        <div id="overlay"></div>
+        <section id="main_content">
+            <h1 class="f1 b">Bootcamp Project 3</h1>
+            <h6>In this project, we are going to make a Global Museum Dashboard.</h6>
+            <h6>We are group 8: Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi</h6>
+        </section>
+      </div>
+
+<!-- <h2>Bootcamp Project 3</h2> -->
+<!-- <p>In this project, we are going to make a Global Museum Dashboard.</p> -->
+<!-- <p>We are group 8: Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi</p> -->
 
 <header>
   <h2>Global Museum Dashboard</h2>
@@ -42,10 +61,6 @@ crossorigin=""></script>
 <section>
   <nav>
     <!-- Tab links -->
-
-    <div id="tablinks_widget"></div>
-
-
     <div class="tab">
         <button class="tablinks" onclick="openCity(event, 'North America')" id="defaultOpen">North America</button>
         <button class="tablinks" onclick="openCity(event, 'Europe')">Europe</button>
@@ -80,14 +95,12 @@ crossorigin=""></script>
                         <!-- The div where we'll insert our map -->
                         <div id="map"></div>
                         <!-- JavaScript file -->
-                        <script type="text/javascript" src="logic1.js"></script>
+                        <script type="text/javascript" src="Logic_test.js"></script>
                     </td>
                 </tr>
             </tbody>
         </table>
     </div>
-
-    <div id="tabcontent_widget"></div>
 
     <div id="Europe" class="tabcontent">
         <h3>Europe</h3>
@@ -110,12 +123,15 @@ crossorigin=""></script>
 
 </section>
 
-
-
 <footer>
   <p>Copyright © 2023 U of T SCS Bootcamp Group 8. All rights reserved.</p>
 </footer>
 
+
+
+
 </body>
+
+
 </html>
 

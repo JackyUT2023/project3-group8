@@ -6,7 +6,7 @@ Group 8 - Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi
 ## Path - A combination of web scraping and Leaflet or Plotly
 
 What - Museums and their locations in the United States
-Who - The United States Travel and Tourism Administration - Guide for local/international tourists 
+Who - // The United States Travel and Tourism Administration // - Guide for local/international tourists 
 Why - Market Museums as travel hotspots for international and local tourists
 
 Views
