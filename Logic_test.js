@@ -12,34 +12,37 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(myMap);
 
 
-(function (BackgroundVideoPlayback) {
-let bv = new Bideo();
-bv.init({
-  // Video element
-  videoEl: document.querySelector('#background_video'),
+(function () {
 
-  // Container element
-  container: document.querySelector('body'),
+  var bv = new Bideo();
+  bv.init({
+    // Video element
+    videoEl: document.querySelector('#background_video'),
 
-  // Resize
-  resize: true,
+    // Container element
+    container: document.querySelector('body'),
 
-  // autoplay: false,
+    // Resize
+    resize: true,
 
-  // Array of objects containing the src and type
-  // of different video formats to add
-  src: [
-    {
-      src: 'museum.mp4',
-      type: 'video/mp4'
+    // autoplay: false,
+
+    // Array of objects containing the src and type
+    // of different video formats to add
+    src: [
+      {
+        src: 'museum.mp4',
+        type: 'video/mp4'
+      },
+      {
+        src: 'https://vjs.zencdn.net/v/oceans.webm',
+        type: 'video/webm;codecs="vp8, vorbis"'
+      }
+    ],
+
+    // What to do once video loads (initial frame)
+    onLoad: function () {
+      document.querySelector('#video_cover').style.display = 'none';
     }
-  ],
-
-  // What to do once video loads (initial frame)
-  onLoad: function () {
-    document.querySelector('#video_cover').style.display = 'none';
-  }
-});
+  });
 }());
-
-

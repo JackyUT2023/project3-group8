@@ -54,3 +54,18 @@ Story over the minimums.
 - Ibsar Hashmi - add Javascript React to the index.js - Major City/Museum API search
 
 ### Page link: https://jackyut2023.github.io/project3-group8/
+
+
+
+Different Views
+
+-Museum Location
+Top 10 between states and major cities
+cluster map/heatmap
+types of museum
+
+
+Heatmap (Trip Advisor)
+
+
+Revenue

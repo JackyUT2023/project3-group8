@@ -29,7 +29,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('museum.png');
+  background-image: ('museum.png');
   background-size: cover;
   background-position: center;
   z-index: 0; /* Move it to a layer below the video */
