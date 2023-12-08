@@ -30,6 +30,7 @@
 
     // What to do once video loads (initial frame)
     onLoad: function () {
+      document.querySelector('#background_video').playbackRate = 2;
       document.querySelector('#video_cover').style.display = 'none';
     }
   });

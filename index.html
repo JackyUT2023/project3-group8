@@ -25,12 +25,23 @@ crossorigin=""></script>
 </head>
 <body>
 
-<h2>Bootcamp Project 3</h2>
-<p>In this project, we are going to make a dashboard about the museums in United States.</p>
-<p>We are group 8: Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi</p>
+    <div id="container">
+        <video id="background_video" muted autoplay>
+          <source src="museum.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div id="video_cover"></div>
+        <div id="overlay"></div>
+        <section id="main_content">
+            <h1 class="f1 b">Bootcamp Project 3</h1>
+            <h1 class="f1 b">Museums in the United States Dashboard</h1>
+            <h6>We are Group 8: Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi</h6>
+        </section>
+        <script type="text/javascript" src="logics_js/logic_bideo.js"></script>
+    </div>
 
 <header>
-  <h2>Museums in United States Dashboard</h2>
+<!--  <h2>Museums in United States Dashboard</h2> -->
 </header>
 
 <section>
@@ -95,7 +106,6 @@ crossorigin=""></script>
                 <!-- JavaScript file -->
                 <script type="text/javascript" src="logics_js/us-states_fakedata.js"></script>
                 <script type="text/javascript" src="logics_js/logic2.js"></script>
-
         </table>
         
     </div>
@@ -111,8 +121,6 @@ crossorigin=""></script>
   </article>
 
 </section>
-
-
 
 <footer>
   <p>Copyright © 2023 U of T SCS Bootcamp Group 8. All rights reserved.</p>
