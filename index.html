@@ -19,12 +19,6 @@ crossorigin="" />
 integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
 crossorigin=""></script>
 
-<!-- JavaScript React -->
-<!-- <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script> -->
-<!-- <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script> -->
-<!-- <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script> -->
-<!-- <script type="text/babel" src="Logic_React.js"></script> -->
-
 <!-- Our CSS -->
 <link rel="stylesheet" type="text/css" href="myStyle.css">
 
@@ -32,42 +26,48 @@ crossorigin=""></script>
 <body>
 
 <h2>Bootcamp Project 3</h2>
-<p>In this project, we are going to make a Global Museum Dashboard.</p>
+<p>In this project, we are going to make a dashboard about the museums in United States.</p>
 <p>We are group 8: Jacky Zhang, Chandler McLaren, Yug Sharma, Ibsar Hashmi</p>
 
 <header>
-  <h2>Global Museum Dashboard</h2>
+  <h2>Museums in United States Dashboard</h2>
 </header>
 
 <section>
   <nav>
     <!-- Tab links -->
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'North America')" id="defaultOpen">North America</button>
-        <button class="tablinks" onclick="openCity(event, 'Europe')">Europe</button>
-        <button class="tablinks" onclick="openCity(event, 'Aisa')">Aisa</button>
-        <button class="tablinks" onclick="openCity(event, 'Africa')">Africa</button>
+        <button class="tablinks" onclick="openCity(event, 'Museum Location')" id="defaultOpen">Museum Location</button>
+        <button class="tablinks" onclick="openCity(event, 'Heatmap')">Heatmap(TBD)</button>
+        <button class="tablinks" onclick="openCity(event, 'Revenue')">Revenue</button>
     </div>
   </nav>
   
   <article>
-    <div id="North America" class="tabcontent">
+    <div id="Museum Location" class="tabcontent">
         <table style="width: 100%;">
             <tbody>
                 <tr>
                     <td style="width: 50%;">
                         <table style="width: 50%;">
                             <tr>
-                                <h3>North America</h3>
-                                <p>North America contains USA and Canada.</p>
+                                <!-- Text box on top of the bar chart. -->
+                                <h3>What will be showing in the section</h3>
+                                <p>In this section, Number of Museums will be shown. <br>
+                                <a style="color: brown;"> To be decided: mayba use a pie chart???</a></p>
+                                <p> State level visualization of each Museum - Map will be shown.<br>
+                                <a style="color: brown;">(Rightnow, I am using population as fake data. Once we have the Museum location, we should be able to calculate the density of the Museum.)</a> </p>    
+                                <p>Proximity to Major cities of the State - how many museums are there in a major city vs outside of them will be shown.<br>   
+                                <a style="color: brown;">(Using fake data, the bar chart is showing the museums numbers.)</a></p> 
                             </tr>
                             <tr>
+                                <!-- Dropdown box and bar chart. -->
                                 <select name="Data" id="MuseumData" style="font-size: 18px;">
-                                <option value="VisitCount">Visit Count</option>
-                                <option value="TicketSales">Ticket Sales</option>
+                                <option value="States">States</option>
+                                <option value="MajorCity">MajorCity</option>
                                 </select>
                                 <div id="plot" style="width: 50%;"></div>
-                                <script src="plots.js"></script>                             
+                                <script src="logics_js/plots.js"></script>                             
                             </tr>
                         </table>
                     </td>
@@ -76,29 +76,37 @@ crossorigin=""></script>
                         <!-- The div where we'll insert our map -->
                         <div id="map"></div>
                         <!-- JavaScript file -->
-                        <script type="text/javascript" src="logic1.js"></script>
+                        <script type="text/javascript" src="logics_js/us-states_fakedata.js"></script>
+                        <script type="text/javascript" src="logics_js/logic1.js"></script>
                     </td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <div id="Europe" class="tabcontent">
-        <h3>Europe</h3>
-        <p>Europe includes England, France, German etc.</p>
+    <div id="Heatmap" class="tabcontent">
+        <h3>Heatmap</h3>
+        <p>If attendance found, build a heat map<br>
+            <a style="color: brown;">If attendance found, build annual attendance heatmap, but it seems we don't have data.</a></p>
+        <p>Alternatively, build a rating map<br>
+            <a style="color: brown;">Alternatively, build a map with different rate to show how popular the museum is.</a></p>
+        <table>
+        <div id="map2"></div>
+                <!-- JavaScript file -->
+                <script type="text/javascript" src="logics_js/us-states_fakedata.js"></script>
+                <script type="text/javascript" src="logics_js/logic2.js"></script>
+
+        </table>
+        
     </div>
       
-    <div id="Aisa" class="tabcontent">
-        <h3>Aisa</h3>
-        <p>Aisa includes China, Japan, Korea, India etc.</p>
-    </div>
-    
-    <div id="Africa" class="tabcontent">
-        <h3>Africa</h3>
-        <p>Africa includes South Africa etc.</p>
+    <div id="Revenue" class="tabcontent">
+        <h3>Income/Revenue</h3>
+        <p>Using Income/Revenue - indicate how large of exhibitions are at display<br>
+            Total state revenue of Museums and then a correlation of number of museums and revenue</p>
     </div>
 
-    <script type="text/javascript" src="TabControl.js"></script>
+    <script type="text/javascript" src="logics_js/TabControl.js"></script>
 
   </article>
 
