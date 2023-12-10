@@ -54,7 +54,6 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -86.1579106,39.8107901,Children's Museum of Indianapolis,1,4.5,"2,694"
 -83.2333161,42.3002415,The Henry Ford,1,5.0,"2,884"
 -122.4686651,37.7714658,de Young Museum,26,4.5,"1,417"
--82.4039417,28.0535966,Museum of Science and Industry,29,3.5,991
 -121.9225245,37.3327179,Rosicrucian Egyptian Museum,2,4.5,516
 -71.0646337,42.3652917,Museum of Science,21,4.5,"2,328"
 -76.9855034,38.8947822,National Museum of American History,32,4.5,"3,161"
@@ -183,7 +182,6 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -80.00249740000001,40.4483738,Andy Warhol Museum,19,4.0,771
 -95.9698979,36.1237708,Philbrook Museum of Art,1,5.0,801
 -78.7583432,37.8131025,Walton's Mountain Museum,1,4.0,161
--82.6318678,27.7744731,Museum of Fine Arts,7,4.5,584
 -98.4821597,29.4373035,San Antonio Museum of Art,15,4.5,557
 -73.9872646,40.7440298,Museum of Sex,397,2.5,687
 -76.2928793,36.8564944,Chrysler Museum of Art,1,5.0,604
@@ -238,7 +236,6 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -75.1484524,39.9502055,National Museum of American Jewish History,10,4.5,777
 -71.0495792,42.3518667,Boston Children's Museum,30,4.5,661
 -85.3122195,35.0526705,Creative Discovery Museum,4,4.5,686
--78.8913041,33.7172601,Hollywood Wax Museum,1,4.0,745
 -97.7374113,30.2809836,The Blanton Museum of Art,22,4.5,290
 -78.6385561,35.7817852,North Carolina Museum of History,5,4.5,534
 -71.11526289999999,42.37892919999999,Harvard Museum of Natural History,5,4.5,722
@@ -321,7 +318,6 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -84.5176954,38.1516959,Kentucky Horse Park,2,4.5,"1,619"
 -123.143839,45.2039669,Evergreen Aviation & Space Museum,1,4.5,"1,037"
 -76.85603859999999,40.2718245,National Civil War Museum,1,4.5,669
--74.01397759999999,40.70433420000001,National Museum of the American Indian,91,4.0,474
 -80.00655189999999,40.4527589,Children's Museum of Pittsburgh,20,4.5,414
 -81.8068935,24.5590428,Key West Shipwreck Treasure Museum,30,4.0,745
 -75.1465458,39.9487173,Benjamin Franklin Museum,32,4.5,283
@@ -330,7 +326,6 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -82.3703938,29.6359359,Florida Museum of Natural History,2,4.5,582
 -118.5649565,34.0455545,The Getty Villa,1,4.5,"1,617"
 -95.9460524,41.26040829999999,Joslyn Art Museum,5,4.5,539
--93.2769399,36.6376247,Hollywood Wax Museum,3,4.0,"1,028"
 -111.8336751,33.4166855,Arizona Museum of Natural History,6,4.5,226
 -78.89927759999999,36.0293105,Museum of Life + Science,3,4.5,629
 -87.6557366,44.0927382,Wisconsin Maritime Museum,1,4.5,304
@@ -643,7 +638,6 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -110.763716,43.48031599999999,Jackson Hole Museum,24,4.0,102
 -78.84343880000002,42.90591810000001,Buffalo Museum of Science,24,4.0,159
 -83.5184699,35.7110973,Ripley's Believe It or Not! Odditorium,25,3.5,"1,307"
--118.338087,34.1017297,Hollywood Wax Museum,83,3.5,277
 -79.384136,36.643089,Tank Museum,2,4.5,119
 -88.0148912,44.5167159,The Children's Museum of Green Bay,11,4.5,68
 -95.5842117,30.7367948,Texas Prison Museum,1,4.5,150
@@ -948,7 +942,6 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -120.8442638,35.3531957,Museum of Natural History,8,4.5,156
 -77.91568629999999,34.1842069,Cameron Art Museum,18,4.0,96
 -88.15597819999999,41.8549443,First Division Museum at Cantigny,2,5.0,166
--149.8874806,61.1956428,Wells Fargo History Museum,39,4.5,97
 -99.2997574,38.8892355,Sternberg Museum of Natural History,1,4.5,146
 -73.20269150000001,42.7111863,Williams College Museum of Art,2,4.5,170
 -75.1391999,38.7740593,Zwaanendael Museum,9,4.0,103
