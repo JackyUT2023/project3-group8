@@ -20,6 +20,15 @@ MajorCities = Base.classes.major_cities
 
 app = Flask(__name__)
 
+@app.route("/")
+def welcome():
+    return (
+        f"Available Routes:<br/>"
+        f"/api/v1.0/museum_data<br/>"
+        f"/api/v1.0/tripadvisor_data<br/>"
+        f"/api/v1.0/major_cities<br/>"
+    )
+
 @app.route("/api/v1.0/museum_data")
 def museum_data():
     session = Session(engine)
