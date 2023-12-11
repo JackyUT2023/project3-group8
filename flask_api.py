@@ -13,7 +13,6 @@ DATABASE_URL ='postgresql://postgres:postgres@localhost:5432/us_museums_db'
 engine = create_engine(DATABASE_URL)
 Base = automap_base()
 Base.prepare(autoload_with=engine)
-#Base.prepare(engine, reflect=True)
 Museums = Base.classes.museums
 TripAdvisor = Base.classes.trip_advisor
 MajorCities = Base.classes.major_cities
