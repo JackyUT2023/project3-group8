@@ -24,7 +24,6 @@ Specific type of Javascript library not used in class
 additional library to include - Bideo.js - Background running video, Plyr
 
 
-
 ## Requirements:
 
 ### MUST HAVE
@@ -51,21 +50,9 @@ Story over the minimums.
 - Chandler Mclaren - data cleaning backend - API search
 - Jacky Zhang - Visualization buildout
 - Yug Sharma - SQL/Alchemy/Mongo database along with relational diagrams - use the csvs
-- Ibsar Hashmi - add Javascript React to the index.js - Major City/Museum API search
+- Ibsar Hashmi - add Bideo.js to the dashboard - Major City/Museum API search
 
 ### Page link: https://jackyut2023.github.io/project3-group8/
 
 
 
-Different Views
-
--Museum Location
-Top 10 between states and major cities
-cluster map/heatmap
-types of museum
-
-
-Heatmap (Trip Advisor)
-
-
-Revenue
