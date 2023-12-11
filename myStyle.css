@@ -132,6 +132,12 @@
   border: 1px solid #ccc;
 }
 
+#map3 {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #ccc;
+}
+
 /* Background Video */
 
 #container {

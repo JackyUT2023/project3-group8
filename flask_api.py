@@ -6,10 +6,11 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from sqlalchemy import Column, Integer, String, Float
 from flask import Flask, jsonify
+from flask_cors import CORS
 
 
 #config a database connection
-DATABASE_URL ='postgresql://postgres:postgres@localhost:5432/us_museums_db'
+DATABASE_URL ='postgresql://postgres:jacky%402023@localhost:5432/us_museums_db'
 engine = create_engine(DATABASE_URL)
 Base = automap_base()
 Base.prepare(autoload_with=engine)
@@ -18,6 +19,7 @@ TripAdvisor = Base.classes.trip_advisor
 MajorCities = Base.classes.major_cities
 
 app = Flask(__name__)
+CORS(app)  # This will enable CORS for all routes in your Flask app
 
 @app.route("/")
 def welcome():

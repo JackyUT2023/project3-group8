@@ -106,3 +106,65 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(map);
+
+// ---------------------<test marker start>---------------------------------
+let museum_data_url = "http://127.0.0.1:5000/api/v1.0/museum_data";
+
+let markers =[]
+
+d3.json(museum_data_url).then(function(response){
+    console.log(response);
+    for (i=0; i<response.length; i++){
+        markers.push([response[i].latitude,response[i].longitude]) 
+    };
+    let marker = L.layerGroup(markers)
+
+});
+
+const marker = L.geoJson(statesData, {
+    style,
+    onEachFeature
+}).addTo(map);
+
+
+
+// Creating a new marker:
+// We pass in some initial options, and then add the marker to the map by using the addTo() method.
+// let marker = L.marker([45.52, -122.67], {
+//     draggable: true,
+//     title: "My First Marker"
+//   }).addTo(map);
+  
+//   // Binding a popup to our marker
+//   marker.bindPopup("Hello There! I am a museum.");
+
+
+// ---------------------<test marker end>---------------------------------
+
+// ----------------------------<layer control>-------------------------------------------------
+
+function CreateLayer(marker){
+    let topo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+});
+
+// Create a baseMaps object.
+let baseMaps = {
+    // "Street Map": tiles,
+    // "Topographic Map": topo
+};
+  
+// Create an overlay object.
+let overlayMaps = {
+    "States": geojson,
+    "Test Marker": marker
+};
+
+L.control.layers(baseMaps,overlayMaps, {
+    collapsed: false
+  }).addTo(map);
+}
+
+
+
+// ---------------------<layer control end>---------------------------------

@@ -54,5 +54,10 @@ Story over the minimums.
 
 ### Page link: https://jackyut2023.github.io/project3-group8/
 
+### About Code
+--------------------
+- please ensure install below extension:
+    - conda install flask-cors
+
 
 
