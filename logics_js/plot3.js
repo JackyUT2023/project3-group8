@@ -1,36 +1,92 @@
-let url = "http://127.0.0.1:5000/api/v1.0/museum_data";
+let url4 = "http://127.0.0.1:5000/api/v1.0/museum_data";
 
-d3.json(url).then(function(data){
-  let sortedByIncome = data.sort((a,b) =>b.income - a.income);
-  // console.log(sortedByIncome)
-  let slicedData = sortedByIncome.slice(0, 10);
-  slicedData.reverse();
+d3.json(url4).then(function(data){
+  let ABGN_js = data.filter(entry => entry['museum type'] === "ARBORETUM, BOTANICAL GARDEN, OR NATURE CENTER");
+  let AM_js = data.filter(entry => entry['museum type'] === "ART MUSEUM")
+  let CM_js = data.filter(entry => entry['museum type'] === "CHILDREN'S MUSEUM")
+  let GM_js = data.filter(entry => entry['museum type'] === "GENERAL MUSEUM")
+  let HP_js = data.filter(entry => entry['museum type'] === "HISTORIC PRESERVATION")
+  let HM_js = data.filter(entry => entry['museum type'] === "HISTORY MUSEUM")
+  let NHM_js = data.filter(entry => entry['museum type'] === "NATURAL HISTORY MUSEUM")
+  let STMP_js = data.filter(entry => entry['museum type'] === "SCIENCE & TECHNOLOGY MUSEUM OR PLANETARIUM")
+  let ZAWC_js = data.filter(entry => entry['museum type'] === "ZOO, AQUARIUM, OR WILDLIFE CONSERVATION")
+  let plot3_js = [ABGN_js,AM_js,CM_js,GM_js,HP_js,HM_js,NHM_js,STMP_js,ZAWC_js]
+console.log(plot3_js)
 
-  console.log(slicedData)
 
-  let trace1 = {
-    x: slicedData.map(object => object.income),
-    y: slicedData.map(object => object['Museum Name']),
-    text: slicedData.map(object => object['Museum Name']),
-    name: "Greek",
-    type: "bar",
-    orientation: "h"
-  };
+function init() {
+  // Trace1 for the Greek Data
+let trace1 = {
+  x: ABGN_js,
+  y: ReviewCounts3,
+  name: "ReviewCounts",
+  type: "bar"
+};
 
-  let data = [trace1];
+// Trace 2 for the Roman Data
+let trace32 = {
+  x: Museums3,
+  y: RatingKK(Rating3),
+  name: "Rating",
+  type: "bar"
+};
 
-  let layout = {
-    title: "Income",
-    margin: {
-      l: 100,
-      r: 100,
-      t: 100,
-      b: 100
-    }
-  };
+// Create data array
+let data3 = [trace31, trace32];
+
+// Apply a title to the layout
+let layout3 = {
+  title: "ReviewCounts and Rating results",
+  barmode: "group",
+  // Include margins in the layout so the x-tick labels display correctly
+  margin: {
+    l: 50,
+    r: 50,
+    b: 200,
+    t: 50,
+    pad: 4
+  }
+};
+
+// Render the plot to the div tag with id "plot"
+Plotly.newPlot("plot3", data3, layout3);
+}
+
+
+    // Call updatePlotly() when a change takes place to the DOM
+    d3.selectAll("#ReviewData").on("change", updatePlotly);
+    // This function is called when a dropdown menu item is selected
+    function updatePlotly() {
+      // Use D3 to select the dropdown menu
+      let dropdownMenu = d3.select("#ReviewData");
+      // Assign the value of the dropdown menu option to a variable
+      let dataset = dropdownMenu.property("value");
+    
+      // Initialize x and y arrays
+      let x = [];
+      let y = [];
   
-  // Render the plot to the div tag with id "plot"
-  Plotly.newPlot("plot3", data, layout);
+      if (dataset === 'Review Count') {
+        x = slicedData_ReviewCount.map(object => object.MuseumName);
+        y = slicedData_ReviewCount.map(object => object.ReviewCount);
+      }
+    
+      else if (dataset === 'Rating') {
+        x = plot2_js_2.map(entry => entry.Rating);
+        y = plot2_js_2.map(entry => entry.MuseumCount);
+      }
+    
+      // Note the extra brackets around 'x' and 'y'
+      Plotly.restyle("plot2", "x", [x]);
+      Plotly.restyle("plot2", "y", [y]);
+    }
+
+
+
+
+
+init()
+
 });
 
 
@@ -77,38 +133,3 @@ d3.json(url).then(function(data){
 //     return Rating3 *1000;
 // };
 
-// // Trace1 for the Greek Data
-// let trace31 = {
-//   x: Museums3,
-//   y: ReviewCounts3,
-//   name: "ReviewCounts",
-//   type: "bar"
-// };
-
-// // Trace 2 for the Roman Data
-// let trace32 = {
-//   x: Museums3,
-//   y: RatingKK(Rating3),
-//   name: "Rating",
-//   type: "bar"
-// };
-
-// // Create data array
-// let data3 = [trace31, trace32];
-
-// // Apply a title to the layout
-// let layout3 = {
-//   title: "ReviewCounts and Rating results",
-//   barmode: "group",
-//   // Include margins in the layout so the x-tick labels display correctly
-//   margin: {
-//     l: 50,
-//     r: 50,
-//     b: 200,
-//     t: 50,
-//     pad: 4
-//   }
-// };
-
-// // Render the plot to the div tag with id "plot"
-// Plotly.newPlot("plot3", data3, layout3);
