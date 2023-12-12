@@ -21,7 +21,7 @@ Views
 
 Specific type of Javascript library not used in class
 
-additional library to include - Bideo.js - Background running video, Plyr
+additional library included - Bideo.js - Background running video, Plyr
 
 
 ## Requirements:
