@@ -75,10 +75,10 @@ crossorigin=""></script>
                             <tr>
                                 <!-- Text box on top of the bar chart. -->
                                 <h3>What will be showing in the section</h3>
-                                <p>In this section, Number of Museums will be shown. <br>
-                                <a style="color: brown;"> To be decided: mayba use a pie chart???</a></p>
-                                <p> State level visualization of each Museum - Map will be shown.<br>
-                                <a style="color: brown;">(Rightnow, I am using population as fake data. Once we have the Museum location, we should be able to calculate the density of the Museum.)</a> </p>    
+                                <p>In this section, the number of museum for each state will be shown on the topright content on the map when you hover over on the state. </p>
+                                <p>Each location of the museums are marked as clustermarkers and shown on the map. When clicking on the state or scrolling up the map, the markers view will change accordingly.</p> 
+
+  
                                 <p>Proximity to Major cities of the State - how many museums are there in a major city vs outside of them will be shown.<br>   
                                 <a style="color: brown;">(Using fake data, the bar chart is showing the museums numbers.)</a></p> 
                             </tr>
@@ -98,7 +98,6 @@ crossorigin=""></script>
                         <!-- The div where we'll insert our map -->
                         <div id="map"></div>
                         <!-- JavaScript file -->
-                        <script type="text/javascript" src="logics_js/us-states_fakedata.js"></script>
                         <script type="text/javascript" src="logics_js/logic1.js"></script>
                     </td>
                 </tr>
@@ -170,7 +169,6 @@ crossorigin=""></script>
                     <!-- The div where we'll insert our map -->
                     <div id="map3"></div>
                     <!-- JavaScript file -->
-                    <script type="text/javascript" src="logics_js/museum_fake.js"></script>
                     <script type="text/javascript" src="logics_js/logic3.js"></script>
                 </tr>
             </tbody>
