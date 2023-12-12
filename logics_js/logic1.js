@@ -247,51 +247,6 @@ legend.onAdd = function (map) {
 legend.addTo(map);
 // ----------------------------------------------<Create Legend end>----------------------------------------------
 
-
-// // ---------------------<test marker start>---------------------------------
-// let museum_data_url = "http://127.0.0.1:5000/api/v1.0/museum_data";
-
-// let stateMuseumCounts = {};
-
-// d3.json(museum_data_url).then(function(museumData) {
-//     // Count museums by state
-//     museumData.forEach(museum => {
-//         let state = museum.state; // assuming 'state' is the property name in your API data
-//         if (!stateMuseumCounts[state]) {
-//             stateMuseumCounts[state] = 0;
-//         }
-//         stateMuseumCounts[state]++;
-//     });
-
-//     // Add museum counts to the map data
-//     for (let feature of statesData.features) {
-//         let stateName = feature.properties.name;
-//         feature.properties.museumCount = stateMuseumCounts[stateName] || 0;
-//     }
-
-//     L.geoJson(statesData, { style, onEachFeature }).addTo(map);
-// });
-
-// const marker = L.geoJson(statesData, {
-//     style,
-//     onEachFeature
-// }).addTo(map);
-
-
-
-// // Creating a new marker:
-// // We pass in some initial options, and then add the marker to the map by using the addTo() method.
-// // let marker = L.marker([45.52, -122.67], {
-// //     draggable: true,
-// //     title: "My First Marker"
-// //   }).addTo(map);
-  
-// //   // Binding a popup to our marker
-// //   marker.bindPopup("Hello There! I am a museum.");
-
-
-// // ---------------------<test marker end>---------------------------------
-
 // ----------------------------<layer control>-------------------------------------------------
 
 function CreateLayer(marker){

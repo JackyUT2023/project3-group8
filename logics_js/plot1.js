@@ -131,6 +131,8 @@ for (i=0; i<slicedData_MajorCities.length; i++){
       ];
     //----------------------------------------------------<building states data json end>----------------------------------------------------
     // console.log(Museum_js)
+
+    
     //----------------------------------------------------<Sorting and Slicing start>----------------------------------------------------
     let sortedByStates = Museum_js.sort((a, b) => b.NumOfMuseums - a.NumOfMuseums);
     let slicedData_States = sortedByStates.slice(0, 10);
@@ -166,17 +168,16 @@ for (i=0; i<slicedData_MajorCities.length; i++){
 
     let MuseumCounts1=0,MuseumCounts2=0,MuseumCounts3=0,MuseumCounts4=0,MuseumCounts5=0,MuseumCounts6=0,MuseumCounts7=0,MuseumCounts8=0,MuseumCounts9=0,MuseumCounts10=0
     for (let i = 0; i < NumOfMuseums_City.length; i++) {
-    let city = NumOfMuseums_City[i].toLowerCase();
-    if (city === Top10Cities[0].toLowerCase()) { MuseumCounts1++; }
-    else if (city === Top10Cities[1].toLowerCase()) { MuseumCounts2++; }
-    else if (city === Top10Cities[2].toLowerCase()) { MuseumCounts3++; }
-    else if (city === Top10Cities[3].toLowerCase()) { MuseumCounts4++; }
-    else if (city === Top10Cities[4].toLowerCase()) { MuseumCounts5++; }
-    else if (city === Top10Cities[5].toLowerCase()) { MuseumCounts6++; }
-    else if (city === Top10Cities[6].toLowerCase()) { MuseumCounts7++; }
-    else if (city === Top10Cities[7].toLowerCase()) { MuseumCounts8++; }
-    else if (city === Top10Cities[8].toLowerCase()) { MuseumCounts9++; }
-    else if (city === Top10Cities[9].toLowerCase()) { MuseumCounts10++; }
+      if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[0].toLowerCase()) { MuseumCounts1++; }
+      else if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[1].toLowerCase()) { MuseumCounts2++; }
+      else if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[2].toLowerCase()) { MuseumCounts3++; }
+      else if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[3].toLowerCase()) { MuseumCounts4++; }
+      else if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[4].toLowerCase()) { MuseumCounts5++; }
+      else if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[5].toLowerCase()) { MuseumCounts6++; }
+      else if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[6].toLowerCase()) { MuseumCounts7++; }
+      else if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[7].toLowerCase()) { MuseumCounts8++; }
+      else if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[8].toLowerCase()) { MuseumCounts9++; }
+      else if (NumOfMuseums_City[i].toLowerCase() === Top10Cities[9].toLowerCase()) { MuseumCounts10++; }
     }
   //----------------<Combine and make a json>----------------
   let Top10Cities_js =[
@@ -214,7 +215,6 @@ for (i=0; i<slicedData_MajorCities.length; i++){
       layout = {
         title: "Number of Museums (Top 10)",
         width: 800,
-        yaxis: {title: 'Number of Museums'},
       };
     }
   
@@ -224,14 +224,12 @@ for (i=0; i<slicedData_MajorCities.length; i++){
       layout = {
         title: "Number of Museums (Top 10)",
         width: 800,
-        yaxis: {title: 'Number of Museums'},
       };
     }
   
     // Note the extra brackets around 'x' and 'y'
     Plotly.restyle("plot1", "y", [x]);
     Plotly.restyle("plot1", "x", [y]);
-    Plotly.restyle("plot1", "layout", [layout]);
   }
   init();
   });

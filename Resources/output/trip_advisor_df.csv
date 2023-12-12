@@ -1,138 +1,138 @@
 Longitude,Latitude,Museum Name,Rank,Rating,Review Count
--77.0192351,38.8931385,Newseum,8,4.5,"6,309"
--73.9629278,40.7791655,The Metropolitan Museum of Art,2,5.0,"36,627"
--90.07008599999999,29.9430044,The National WWII Museum,1,5.0,"15,611"
--104.94102,39.76918939999999,Denver Museum of Nature & Science,4,4.5,"2,564"
--87.6237238,41.8795473,Art Institute of Chicago,1,5.0,"15,532"
--74.0124786,40.7114147,The National 9/11 Memorial & Museum,3,4.5,"48,437"
--71.0850239,42.3428415,Museum of Fine Arts,2,4.5,"5,480"
--87.61698620000001,41.8661733,The Field Museum,9,4.5,"5,500"
--77.02596129999999,38.89210370000001,Smithsonian National Museum of Natural History,12,4.5,"7,640"
--77.01990479999999,38.8875682,Smithsonian National Air and Space Museum,3,4.5,"14,492"
--73.9717106,40.7820454,American Museum of Natural History,32,4.5,"13,992"
--87.5830586,41.7906088,Museum of Science and Industry,6,4.5,"6,867"
--73.966075,40.7737839,Frick Collection,10,4.5,"6,746"
--87.2866995,30.355867,National Naval Aviation Museum,1,5.0,"4,057"
--90.661378,42.496887,National Mississippi River Museum & Aquarium,2,4.5,"1,036"
--76.65212989999999,40.2852523,The Hershey Story,4,4.5,"1,127"
--75.18116160000001,39.9658015,Philadelphia Museum of Art,1,4.5,"4,713"
--82.5645578,27.382924,The Ringling,1,4.5,"4,450"
--117.1495479,32.7311048,Balboa Park,3,4.5,"7,453"
--118.4751057,34.0790329,The Getty Center,1,5.0,"9,418"
--95.3892615,29.7215988,The Houston Museum of Natural Science,1,4.5,"3,070"
--77.0326078,38.8867068,United States Holocaust Memorial Museum,5,4.5,"7,031"
--115.1412426,36.1728147,The Mob Museum,12,4.5,"5,115"
--118.3588851,34.0637913,Los Angeles County Museum of Art,9,4.5,"1,855"
--86.7758352,36.1608755,The Johnny Cash Museum,8,4.5,"3,130"
--122.2966729,47.5182137,The Museum of Flight,2,4.5,"4,356"
--96.8066158,32.7869275,Perot Museum of Nature and Science,5,4.5,"2,242"
--111.1681062,32.2440117,Arizona-Sonora Desert Museum,1,5.0,"5,590"
--122.3345508,47.6105075,EMP Museum,16,4.0,"4,067"
--122.4585992,37.8013387,Walt Disney Family Museum,15,4.5,"1,894"
--115.135146,36.176947,The Neon Museum,20,4.5,"2,507"
--73.9771203,40.761417,The Museum of Modern Art (MoMA),28,4.5,"10,591"
+-77.0192351,38.8931385,Newseum,8,4.5,6309
+-73.9629278,40.7791655,The Metropolitan Museum of Art,2,5.0,36627
+-90.07008599999999,29.9430044,The National WWII Museum,1,5.0,15611
+-104.94102,39.76918939999999,Denver Museum of Nature & Science,4,4.5,2564
+-87.6237238,41.8795473,Art Institute of Chicago,1,5.0,15532
+-74.0124786,40.7114147,The National 9/11 Memorial & Museum,3,4.5,48437
+-71.0850239,42.3428415,Museum of Fine Arts,2,4.5,5480
+-87.61698620000001,41.8661733,The Field Museum,9,4.5,5500
+-77.02596129999999,38.89210370000001,Smithsonian National Museum of Natural History,12,4.5,7640
+-77.01990479999999,38.8875682,Smithsonian National Air and Space Museum,3,4.5,14492
+-73.9717106,40.7820454,American Museum of Natural History,32,4.5,13992
+-87.5830586,41.7906088,Museum of Science and Industry,6,4.5,6867
+-73.966075,40.7737839,Frick Collection,10,4.5,6746
+-87.2866995,30.355867,National Naval Aviation Museum,1,5.0,4057
+-90.661378,42.496887,National Mississippi River Museum & Aquarium,2,4.5,1036
+-76.65212989999999,40.2852523,The Hershey Story,4,4.5,1127
+-75.18116160000001,39.9658015,Philadelphia Museum of Art,1,4.5,4713
+-82.5645578,27.382924,The Ringling,1,4.5,4450
+-117.1495479,32.7311048,Balboa Park,3,4.5,7453
+-118.4751057,34.0790329,The Getty Center,1,5.0,9418
+-95.3892615,29.7215988,The Houston Museum of Natural Science,1,4.5,3070
+-77.0326078,38.8867068,United States Holocaust Memorial Museum,5,4.5,7031
+-115.1412426,36.1728147,The Mob Museum,12,4.5,5115
+-118.3588851,34.0637913,Los Angeles County Museum of Art,9,4.5,1855
+-86.7758352,36.1608755,The Johnny Cash Museum,8,4.5,3130
+-122.2966729,47.5182137,The Museum of Flight,2,4.5,4356
+-96.8066158,32.7869275,Perot Museum of Nature and Science,5,4.5,2242
+-111.1681062,32.2440117,Arizona-Sonora Desert Museum,1,5.0,5590
+-122.3345508,47.6105075,EMP Museum,16,4.0,4067
+-122.4585992,37.8013387,Walt Disney Family Museum,15,4.5,1894
+-115.135146,36.176947,The Neon Museum,20,4.5,2507
+-73.9771203,40.761417,The Museum of Modern Art (MoMA),28,4.5,10591
 -99.3306556,43.810828,Akta Lakota Museum,1,5.0,147
--111.9783828,33.6676191,Musical Instrument Museum,1,5.0,"3,553"
--82.6314787,27.7659759,The Dali Museum,1,4.5,"5,110"
--96.8084731,32.7798567,The Sixth Floor Museum/Texas School Book Depository,2,4.5,"5,628"
--90.0575008,35.1346041,National Civil Rights Museum - Lorraine Motel,1,4.5,"4,682"
--118.3554627,34.0638208,La Brea Tar Pits and Museum,15,4.5,"1,878"
--110.8681253,32.1614426,Pima Air & Space Museum,3,4.5,"2,861"
--83.5789351,35.82055,Titanic Museum Attraction,1,4.5,"6,212"
--77.02348529999999,38.8969085,International Spy Museum,46,4.0,"3,553"
+-111.9783828,33.6676191,Musical Instrument Museum,1,5.0,3553
+-82.6314787,27.7659759,The Dali Museum,1,4.5,5110
+-96.8084731,32.7798567,The Sixth Floor Museum/Texas School Book Depository,2,4.5,5628
+-90.0575008,35.1346041,National Civil Rights Museum - Lorraine Motel,1,4.5,4682
+-118.3554627,34.0638208,La Brea Tar Pits and Museum,15,4.5,1878
+-110.8681253,32.1614426,Pima Air & Space Museum,3,4.5,2861
+-83.5789351,35.82055,Titanic Museum Attraction,1,4.5,6212
+-77.02348529999999,38.8969085,International Spy Museum,46,4.0,3553
 -118.2861256,34.0171157,Natural History Museum of Los Angeles County,11,4.5,886
--85.7639901,38.2570582,Louisville Slugger Museum & Factory,2,4.5,"3,766"
--112.0722009,33.4724737,Heard Museum,3,4.5,"1,698"
--74.00670099999999,40.7412308,Ground Zero Museum Workshop,19,5.0,"2,588"
--118.3614346,34.0619358,Petersen Automotive Museum,10,4.5,"1,018"
--94.5859443,39.0810093,National World War I Museum and Memorial,1,5.0,"3,163"
--117.175658,32.7137622,USS Midway Museum,1,4.5,"15,105"
--90.2004238,38.6335758,City Museum,4,4.5,"4,331"
--122.497668,37.7813454,Legion of Honor,16,4.5,"1,431"
--104.9902678,39.7313797,Denver Art Museum,5,4.5,"2,084"
--81.6119252,41.5090158,Cleveland Museum of Art,1,5.0,"2,076"
--86.1579106,39.8107901,Children's Museum of Indianapolis,1,4.5,"2,694"
--83.2333161,42.3002415,The Henry Ford,1,5.0,"2,884"
--122.4686651,37.7714658,de Young Museum,26,4.5,"1,417"
+-85.7639901,38.2570582,Louisville Slugger Museum & Factory,2,4.5,3766
+-112.0722009,33.4724737,Heard Museum,3,4.5,1698
+-74.00670099999999,40.7412308,Ground Zero Museum Workshop,19,5.0,2588
+-118.3614346,34.0619358,Petersen Automotive Museum,10,4.5,1018
+-94.5859443,39.0810093,National World War I Museum and Memorial,1,5.0,3163
+-117.175658,32.7137622,USS Midway Museum,1,4.5,15105
+-90.2004238,38.6335758,City Museum,4,4.5,4331
+-122.497668,37.7813454,Legion of Honor,16,4.5,1431
+-104.9902678,39.7313797,Denver Art Museum,5,4.5,2084
+-81.6119252,41.5090158,Cleveland Museum of Art,1,5.0,2076
+-86.1579106,39.8107901,Children's Museum of Indianapolis,1,4.5,2694
+-83.2333161,42.3002415,The Henry Ford,1,5.0,2884
+-122.4686651,37.7714658,de Young Museum,26,4.5,1417
 -121.9225245,37.3327179,Rosicrucian Egyptian Museum,2,4.5,516
--71.0646337,42.3652917,Museum of Science,21,4.5,"2,328"
--76.9855034,38.8947822,National Museum of American History,32,4.5,"3,161"
--94.5806233,39.0445698,Nelson-Atkins Museum of Art,2,5.0,"1,984"
--97.483349,35.535713,National Cowboy & Western Heritage Museum,2,4.5,"1,278"
--93.2800426,36.6383418,Titanic Museum,6,4.5,"3,899"
+-71.0646337,42.3652917,Museum of Science,21,4.5,2328
+-76.9855034,38.8947822,National Museum of American History,32,4.5,3161
+-94.5806233,39.0445698,Nelson-Atkins Museum of Art,2,5.0,1984
+-97.483349,35.535713,National Cowboy & Western Heritage Museum,2,4.5,1278
+-93.2800426,36.6383418,Titanic Museum,6,4.5,3899
 -85.41994179999999,42.4404812,Gilmore Car Museum,1,5.0,367
--81.3129841,29.8969436,St. Augustine Pirate & Treasure Museum,10,4.5,"2,131"
+-81.3129841,29.8969436,St. Augustine Pirate & Treasure Museum,10,4.5,2131
 -80.14792899999999,26.1210369,Museum of Discovery and Science,1,4.0,766
--71.09895589999999,42.338227,Isabella Stewart Gardner Museum,12,4.5,"1,868"
--73.9900373,40.7187792,Tenement Museum,27,4.5,"4,446"
--70.892225,42.5215344,Peabody Essex Museum,1,4.5,"1,317"
--79.9499151,40.4431957,Carnegie Museum of Natural History,5,4.5,"1,030"
--86.7762664,36.1583339,Country Music Hall of Fame and Museum,3,4.5,"7,374"
--76.9984522,38.8920125,National Gallery of Art,2,5.0,"6,273"
--78.6395502,35.7822735,North Carolina Museum of Natural Sciences,1,4.5,"1,417"
--77.0229632,38.897203,Smithsonian American Art Museum,27,4.5,"1,074"
--84.1097834,39.7818731,National Museum of the U.S. Air Force,1,5.0,"2,905"
+-71.09895589999999,42.338227,Isabella Stewart Gardner Museum,12,4.5,1868
+-73.9900373,40.7187792,Tenement Museum,27,4.5,4446
+-70.892225,42.5215344,Peabody Essex Museum,1,4.5,1317
+-79.9499151,40.4431957,Carnegie Museum of Natural History,5,4.5,1030
+-86.7762664,36.1583339,Country Music Hall of Fame and Museum,3,4.5,7374
+-76.9984522,38.8920125,National Gallery of Art,2,5.0,6273
+-78.6395502,35.7822735,North Carolina Museum of Natural Sciences,1,4.5,1417
+-77.0229632,38.897203,Smithsonian American Art Museum,27,4.5,1074
+-84.1097834,39.7818731,National Museum of the U.S. Air Force,1,5.0,2905
 -83.5592918,41.6584327,Toledo Museum of Art,1,5.0,744
--109.0742033,44.5242379,Buffalo Bill Center of the West,1,5.0,"2,777"
--97.739171,30.2802961,Bullock Texas State History Museum,4,4.5,"1,730"
--95.385113,29.7226824,Children's Museum of Houston,4,4.5,"1,165"
+-109.0742033,44.5242379,Buffalo Bill Center of the West,1,5.0,2777
+-97.739171,30.2802961,Bullock Texas State History Museum,4,4.5,1730
+-95.385113,29.7226824,Children's Museum of Houston,4,4.5,1165
 -83.0769449,35.5137182,Wheels Through Time Transportation Museum,1,5.0,983
--71.0512904,42.3521949,Boston Tea Party Ships & Museum,7,4.5,"3,589"
--122.350849,47.6215818,Chihuly Garden and Glass,1,5.0,"14,080"
--85.7708646,38.2057356,Kentucky Derby Museum,3,4.5,"1,870"
--84.95531869999999,32.3886366,National Infantry Museum and Soldier Center,1,5.0,"1,441"
+-71.0512904,42.3521949,Boston Tea Party Ships & Museum,7,4.5,3589
+-122.350849,47.6215818,Chihuly Garden and Glass,1,5.0,14080
+-85.7708646,38.2057356,Kentucky Derby Museum,3,4.5,1870
+-84.95531869999999,32.3886366,National Infantry Museum and Soldier Center,1,5.0,1441
 -111.6656199,35.2344992,Museum of Northern Arizona,9,4.5,365
--98.8671543,30.2719842,National Museum of the Pacific War,1,5.0,"1,826"
+-98.8671543,30.2719842,National Museum of the Pacific War,1,5.0,1826
 -75.226624,39.910907,Simeone Foundation Automotive Museum,36,4.5,183
--89.64713449999999,39.8033667,Abraham Lincoln Presidential Library and Museum,1,5.0,"3,057"
--94.2031628,36.3817069,Crystal Bridges Museum of American Art,1,5.0,"2,848"
--77.05404779999999,42.1498385,Corning Museum of Glass,1,4.5,"2,295"
--121.504009,38.584422,California State Railroad Museum,1,5.0,"1,810"
--71.0354013,42.3148523,John F. Kennedy Presidential Museum & Library,8,4.5,"2,362"
--95.3904825,29.7256798,"Museum of Fine Arts, Houston",2,4.5,"1,660"
--75.17262579999999,39.95813890000001,The Franklin Institute,15,4.5,"1,936"
--96.8009683,32.7877263,Dallas Museum of Art,7,4.5,"1,315"
--84.53747369999999,39.1098737,Cincinnati Museum Center at Union Terminal,5,4.5,"1,410"
+-89.64713449999999,39.8033667,Abraham Lincoln Presidential Library and Museum,1,5.0,3057
+-94.2031628,36.3817069,Crystal Bridges Museum of American Art,1,5.0,2848
+-77.05404779999999,42.1498385,Corning Museum of Glass,1,4.5,2295
+-121.504009,38.584422,California State Railroad Museum,1,5.0,1810
+-71.0354013,42.3148523,John F. Kennedy Presidential Museum & Library,8,4.5,2362
+-95.3904825,29.7256798,"Museum of Fine Arts, Houston",2,4.5,1660
+-75.17262579999999,39.95813890000001,The Franklin Institute,15,4.5,1936
+-96.8009683,32.7877263,Dallas Museum of Art,7,4.5,1315
+-84.53747369999999,39.1098737,Cincinnati Museum Center at Union Terminal,5,4.5,1410
 -70.283868,41.6517,John F Kennedy Hyannis Museum,2,4.0,581
--149.8846131,61.2160934,Anchorage Museum at Rasmuson Center,4,4.5,"1,775"
--116.5500145,33.8242967,Palm Springs Art Museum,5,4.5,"1,009"
--84.38493509999999,33.7891582,High Museum of Art,8,4.5,"1,465"
--76.61636469999999,39.2965737,The Walters Art Museum,3,5.0,"1,046"
+-149.8846131,61.2160934,Anchorage Museum at Rasmuson Center,4,4.5,1775
+-116.5500145,33.8242967,Palm Springs Art Museum,5,4.5,1009
+-84.38493509999999,33.7891582,High Museum of Art,8,4.5,1465
+-76.61636469999999,39.2965737,The Walters Art Museum,3,5.0,1046
 -104.9707623,39.7778139,Forney Museum of Transportation,19,4.5,274
--77.4749303,37.5557962,Virginia Museum of Fine Arts,1,5.0,"1,773"
+-77.4749303,37.5557962,Virginia Museum of Fine Arts,1,5.0,1773
 -97.4418414,35.3648349,Museum of Osteology,3,5.0,880
--122.331905,47.6095072,Seattle Art Museum,27,4.5,"1,042"
+-122.331905,47.6095072,Seattle Art Museum,27,4.5,1042
 -80.1863254,25.7860344,Perez Art Museum Miami,15,4.5,974
--87.8969218,43.0398427,Milwaukee Art Museum,1,4.5,"1,753"
+-87.8969218,43.0398427,Milwaukee Art Museum,1,4.5,1753
 -95.3856342,29.7251287,Holocaust Museum Houston,10,4.5,608
--105.9264916,35.6640459,Museum of International Folk Art,1,4.5,"1,366"
+-105.9264916,35.6640459,Museum of International Folk Art,1,4.5,1366
 -73.759688,42.650347,New York State Museum,2,4.5,685
--73.9932872,40.7602619,"Intrepid Sea, Air & Space Museum",38,4.5,"5,657"
+-73.9932872,40.7602619,"Intrepid Sea, Air & Space Museum",38,4.5,5657
 -118.1592383,34.1462414,Norton Simon Museum,1,5.0,839
 -70.2622758,43.65386729999999,Portland Museum of Art,2,4.5,984
 -73.977857,40.7812427,New-York Historical Society Museum & Library,119,4.0,479
--75.1725901,39.9605194,The Barnes Foundation,2,4.5,"3,365"
--71.0531196,42.3743084,USS Constitution Museum,22,4.5,"2,571"
--77.44439190000001,38.9108615,Smithsonian National Air and Space Museum Steven F. Udvar-Hazy Center,1,5.0,"2,993"
+-75.1725901,39.9605194,The Barnes Foundation,2,4.5,3365
+-71.0531196,42.3743084,USS Constitution Museum,22,4.5,2571
+-77.44439190000001,38.9108615,Smithsonian National Air and Space Museum Steven F. Udvar-Hazy Center,1,5.0,2993
 -97.4612171,27.7980829,Selena Museum,10,4.5,168
 -87.92132439999999,43.0407097,Milwaukee Public Museum,5,4.5,721
--81.31377049999999,29.8907826,The Lightner Museum,16,4.5,"1,678"
+-81.31377049999999,29.8907826,The Lightner Museum,16,4.5,1678
 -87.62653999999999,41.8943149,Richard H. Driehaus Museum,14,4.5,919
 -84.3277485,33.7739166,Fernbank Museum of Natural History,29,4.0,710
--105.941257,35.6892437,Georgia O'Keeffe Museum,12,4.0,"2,838"
+-105.941257,35.6892437,Georgia O'Keeffe Museum,12,4.0,2838
 -76.14884289999999,43.0506803,Erie Canal Museum,3,4.5,232
--78.7023732,35.8101128,North Carolina Museum of Art,2,4.5,"1,130"
--77.600709,43.152744,The Strong National Museum of Play,1,5.0,"1,406"
+-78.7023732,35.8101128,North Carolina Museum of Art,2,4.5,1130
+-77.600709,43.152744,The Strong National Museum of Play,1,5.0,1406
 -88.037548,30.6883497,GulfQuest National Maritime Museum of the Gulf of Mexico,4,4.5,131
 -76.6016324,39.2739568,Baltimore Museum of Industry,21,4.5,186
 -78.885548,35.0559494,Airborne and Special Operations Museum,1,5.0,666
 -111.8227101,40.764126,Natural History Museum of Utah,4,4.5,815
 -111.5018079,33.4467979,Superstition Mountain Museum,6,4.5,216
--122.4661436,37.769731,California Academy of Sciences,13,4.5,"4,032"
--80.21197529999999,25.7462559,Vizcaya Museum and Gardens,2,4.5,"4,335"
--87.9162042,43.0311282,Harley-Davidson Museum,2,4.5,"1,847"
--73.33598769999999,42.28794370000001,Norman Rockwell Museum,1,4.5,"1,419"
--94.5814884,39.1094441,Arabia Steamboat Museum,3,4.5,"1,330"
+-122.4661436,37.769731,California Academy of Sciences,13,4.5,4032
+-80.21197529999999,25.7462559,Vizcaya Museum and Gardens,2,4.5,4335
+-87.9162042,43.0311282,Harley-Davidson Museum,2,4.5,1847
+-73.33598769999999,42.28794370000001,Norman Rockwell Museum,1,4.5,1419
+-94.5814884,39.1094441,Arabia Steamboat Museum,3,4.5,1330
 -86.7344466,36.1403531,Lane Motor Museum,12,4.5,555
 -98.488951,29.426205,The Buckhorn Saloon and Texas Ranger Museum,33,4.0,685
 -118.2505584,34.0544714,The Broad,17,4.5,464
@@ -140,42 +140,42 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -105.0780978,40.5934071,Fort Collins Museum of Discovery,9,4.5,152
 -75.1751049,39.9611685,Rodin Museum,12,4.5,925
 -89.6554666,39.7966545,Illinois State Museum,7,4.5,250
--123.8231015,46.1899486,Columbia River Maritime Museum,1,4.5,"1,092"
+-123.8231015,46.1899486,Columbia River Maritime Museum,1,4.5,1092
 -80.8460822,35.2326781,Mint Museum Uptown,14,4.5,320
 -112.0727233,33.4667324,Phoenix Art Museum,10,4.5,644
--122.4117153,37.7947812,Cable Car Museum,18,4.5,"2,546"
+-122.4117153,37.7947812,Cable Car Museum,18,4.5,2546
 -122.6835819,45.5162987,Portland Art Museum,15,4.5,731
--86.1857647,39.8260205,Indianapolis Museum of Art,4,4.5,"1,038"
+-86.1857647,39.8260205,Indianapolis Museum of Art,4,4.5,1038
 -86.6141604,33.5333816,Barber Vintage Motorsports Museum,1,5.0,681
--75.20902629999999,39.9795048,Please Touch Museum,11,4.5,"1,021"
+-75.20902629999999,39.9795048,Please Touch Museum,11,4.5,1021
 -97.2108233,38.9114844,Dwight D. Eisenhower Library and Museum,1,4.5,470
 -97.3651127,32.7485781,Kimbell Art Museum,1,5.0,993
 -73.96366139999999,40.6709661,Brooklyn Museum,8,4.5,960
--86.4808043,36.9685219,National Corvette Museum,1,4.5,"1,619"
+-86.4808043,36.9685219,National Corvette Museum,1,4.5,1619
 -94.6812086,29.4345626,Ocean Star Offshore Drilling Rig & Museum,5,4.5,566
--90.0312187,35.1155282,Stax Museum of American Soul Music,5,4.5,"1,252"
--90.0511071,35.138055,Memphis Rock 'n' Soul Museum,7,4.5,"1,521"
+-90.0312187,35.1155282,Stax Museum of American Soul Music,5,4.5,1252
+-90.0511071,35.138055,Memphis Rock 'n' Soul Museum,7,4.5,1521
 -96.8076653,32.7802354,Dallas Holocaust Museum,27,4.5,298
--96.7778216,32.840889,The George W. Bush Presidential Library and Museum,4,4.5,"2,232"
+-96.7778216,32.840889,The George W. Bush Presidential Library and Museum,4,4.5,2232
 -86.78181219999999,36.1644861,Tennessee State Museum,21,4.5,538
 -80.93009099999999,35.219796,Carolinas Aviation Museum,9,4.5,407
--70.8899584,42.5244945,Salem Witch Museum,18,3.0,"1,757"
+-70.8899584,42.5244945,Salem Witch Museum,18,3.0,1757
 -79.93575290000001,32.789884,Charleston Museum,23,4.5,559
 -77.3433953,38.5442068,National Museum of the Marine Corps,1,5.0,735
 -88.6000478,37.0833893,The National Quilt Museum,1,5.0,521
--93.2735347,44.958509,Minneapolis Institute of Art,1,5.0,"1,479"
--76.606835,39.279813,American Visionary Art Museum,6,4.5,"1,122"
--83.064319,42.3595031,Detroit Institute of Arts,1,5.0,"1,769"
+-93.2735347,44.958509,Minneapolis Institute of Art,1,5.0,1479
+-76.606835,39.279813,American Visionary Art Museum,6,4.5,1122
+-83.064319,42.3595031,Detroit Institute of Arts,1,5.0,1769
 -82.400352,34.855882,The Children's Museum of the Upstate,7,4.5,261
--73.93304289999999,40.8639624,The Met Cloisters,24,4.5,"3,845"
+-73.93304289999999,40.8639624,The Met Cloisters,24,4.5,3845
 -110.8955776,32.2654589,The Mini Time Machine Museum of Miniatures,14,4.5,429
 -82.571517,27.49824,South Florida Museum and Bishop Planetarium,2,4.5,555
 -98.4567478,29.4855158,McNay Art Museum,9,4.5,614
 -90.2839601,38.5061349,Missouri Civil War Museum,12,5.0,504
 -85.676671,42.96570699999999,Grand Rapids Public Museum,6,4.5,454
--77.2259778,39.8113676,Gettysburg Museum & Visitor Center,2,4.5,"3,651"
--119.8088646,39.5259057,National Automobile Museum,1,4.5,"1,064"
--75.1766375,39.9532011,Mutter Museum,26,4.0,"1,126"
+-77.2259778,39.8113676,Gettysburg Museum & Visitor Center,2,4.5,3651
+-119.8088646,39.5259057,National Automobile Museum,1,4.5,1064
+-75.1766375,39.9532011,Mutter Museum,26,4.0,1126
 -95.3698028,29.7604267,Houston Museum District,8,4.5,554
 -121.5065663,38.5770462,Crocker Art Museum,2,4.5,716
 -79.9284011,32.7778373,Old Slave Mart Museum,35,4.0,716
@@ -190,45 +190,45 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -104.9802503,39.7370796,Kirkland Museum of Fine & Decorative Art,16,4.5,268
 -85.62063169999999,44.7630567,Dennos Museum Center,14,4.5,114
 -118.2653836,34.0448196,The Grammy Museum,28,4.5,574
--83.5774612,35.8152036,Hollywood Wax Museum,21,4.0,"1,619"
+-83.5774612,35.8152036,Hollywood Wax Museum,21,4.0,1619
 -89.9595329,35.1248831,Pink Palace Museum,17,4.0,434
--121.342104,43.967656,High Desert Museum,1,4.5,"1,230"
--73.99676199999999,40.734214,Museum Hack,8,5.0,"1,174"
--122.3976732,37.7992627,The Exploratorium,11,4.5,"2,318"
--74.0088604,40.7396091,Whitney Museum of American Art,13,4.5,"1,950"
+-121.342104,43.967656,High Desert Museum,1,4.5,1230
+-73.99676199999999,40.734214,Museum Hack,8,5.0,1174
+-122.3976732,37.7992627,The Exploratorium,11,4.5,2318
+-74.0088604,40.7396091,Whitney Museum of American Art,13,4.5,1950
 -86.1677919,39.76857500000001,The Eiteljorg Museum,8,4.5,601
 -90.2945546,38.6393065,Saint Louis Art Museum,7,4.5,850
 -90.0713102,29.9436584,Ogden Museum of Southern Art,38,4.5,419
 -84.49710499999999,39.1139696,Cincinnati Art Museum,6,4.5,627
 -82.46414519999999,27.946377,Henry B. Plant Museum,15,4.5,481
--147.8412227,64.85833029999999,University of Alaska Museum of the North,4,4.5,"1,462"
--116.504978,33.8325247,Palm Springs Air Museum,2,4.5,"1,152"
+-147.8412227,64.85833029999999,University of Alaska Museum of the North,4,4.5,1462
+-116.504978,33.8325247,Palm Springs Air Museum,2,4.5,1152
 -89.5106304,43.0953491,National Mustard Museum,1,4.5,329
--73.9588816,40.783001,Solomon R. Guggenheim Museum,110,3.5,"3,644"
+-73.9588816,40.783001,Solomon R. Guggenheim Museum,110,3.5,3644
 -73.9896449,40.6903327,New York Transit Museum,13,4.5,627
 -111.0666308,45.6602895,Museum of the Rockies,1,4.5,981
 -96.8354736,32.8423099,Frontiers of Flight Museum,26,4.5,241
--104.523223,33.3936489,International UFO Museum and Research Center,1,3.5,"1,471"
--77.0256747,38.8966765,Ford's Theatre,20,4.5,"2,785"
+-104.523223,33.3936489,International UFO Museum and Research Center,1,3.5,1471
+-77.0256747,38.8966765,Ford's Theatre,20,4.5,2785
 -84.7836614,39.0859976,Creation Museum,1,4.5,996
 -120.8647706,45.6774581,Maryhill Museum of Art,1,4.5,244
 -78.6509511,41.9434516,Zippo / Case Museum,1,4.5,211
 -98.482218,29.4166169,Institute of Texan Cultures,29,4.5,302
--77.0262205,38.8884795,National Portrait Gallery,15,4.5,"2,125"
+-77.0262205,38.8884795,National Portrait Gallery,15,4.5,2125
 -118.3922325,33.9247131,Automobile Driving Museum,1,4.5,80
--73.9888728,40.7563592,Madame Tussauds New York,62,4.0,"5,718"
--122.4545563,37.7716702,Golden Gate Park,6,4.5,"6,648"
--97.51703,35.472973,Oklahoma City National Memorial & Museum,1,5.0,"2,942"
+-73.9888728,40.7563592,Madame Tussauds New York,62,4.0,5718
+-122.4545563,37.7716702,Golden Gate Park,6,4.5,6648
+-97.51703,35.472973,Oklahoma City National Memorial & Museum,1,5.0,2942
 -93.2573426,44.978894,Mill City Museum,7,4.5,937
 -104.8955075,39.7208907,Wings Over the Rockies Air & Space Museum,17,4.5,418
--122.4160525,37.7802559,Asian Art Museum,20,4.5,"1,084"
+-122.4160525,37.7802559,Asian Art Museum,20,4.5,1084
 -83.0672037,42.3597913,Detroit Historical Museum,12,4.5,232
 -71.4077447,41.8267054,Rhode Island School of Design Museum of Art,1,4.5,586
 -76.0281863,36.6789583,Military Aviation Museum,2,4.5,760
 -85.323582,35.016992,International Towing and Recovery Museum,28,4.5,129
 -115.1483536,36.1140637,The National Atomic Testing Museum,57,4.0,998
 -81.6117706,41.5116759,Cleveland Museum of Natural History,22,4.5,388
--86.2336777,39.790307,Indianapolis Motor Speedway Museum,3,4.5,"1,886"
+-86.2336777,39.790307,Indianapolis Motor Speedway Museum,3,4.5,1886
 -103.7294624,44.3757373,Adams Museum,1,4.5,394
 -83.3205859,35.4770574,Museum of the Cherokee Indian,3,4.5,878
 -80.143497,26.102262,Fort Lauderdale Antique Car Museum,11,4.5,313
@@ -245,9 +245,9 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -97.3279003,37.6870762,Museum of World Treasures,4,4.5,330
 -98.4890094,29.4229208,Briscoe Western Art Museum,16,4.5,355
 -76.61944,39.325755,Baltimore Museum of Art,5,4.5,527
--83.0883904,42.3640939,Motown Museum,3,4.5,"1,133"
+-83.0883904,42.3640939,Motown Museum,3,4.5,1133
 -72.0882579,41.3870746,The Submarine Force Museum,1,4.5,593
--81.69550579999999,41.5085183,Rock and Roll Hall of Fame and Museum,4,4.5,"5,637"
+-81.69550579999999,41.5085183,Rock and Roll Hall of Fame and Museum,4,4.5,5637
 -103.0783573,44.1354154,South Dakota Air and Space Museum,7,4.5,527
 -106.5338207,35.0660677,The National Museum of Nuclear Science & History,6,4.5,663
 -70.0988969,41.28555799999999,Whaling Museum,1,4.5,934
@@ -265,21 +265,21 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -97.1288968,31.5547645,Dr Pepper Museum,9,4.0,631
 -86.560936,30.4662455,Air Force Armament Museum,1,4.5,832
 -73.2316975,44.3708733,Shelburne Museum,1,4.5,770
--118.2862095,34.0157877,California Science Center,5,4.5,"2,591"
+-118.2862095,34.0157877,California Science Center,5,4.5,2591
 -76.4880841,37.0551904,The Mariners' Museum & Park,1,5.0,543
--77.01927239999999,38.8920787,National Mall,18,4.5,"4,431"
+-77.01927239999999,38.8920787,National Mall,18,4.5,4431
 -122.7359502,38.4603572,Charles M. Schulz Museum,2,4.5,729
--94.209403,36.37275750000001,The Walmart Museum,3,4.5,"1,064"
+-94.209403,36.37275750000001,The Walmart Museum,3,4.5,1064
 -80.7440225,32.2114807,Coastal Discovery Museum,5,4.5,718
 -85.7644791,38.2578893,Frazier History Museum,12,4.5,503
--157.9583246,21.34853,Pacific Aviation Museum Pearl Harbor,26,4.5,"1,025"
--76.9755464,38.8875181,National Museum of the American Indian,57,4.0,"1,543"
+-157.9583246,21.34853,Pacific Aviation Museum Pearl Harbor,26,4.5,1025
+-76.9755464,38.8875181,National Museum of the American Indian,57,4.0,1543
 -80.83872029999999,35.2281963,Levine Museum of the New South,8,4.5,367
--115.1696529,36.1218691,Madame Tussauds - Las Vegas,37,4.0,"3,369"
+-115.1696529,36.1218691,Madame Tussauds - Las Vegas,37,4.0,3369
 -81.3515043,28.6008669,Charles Hosmer Morse Museum of American Art,1,5.0,987
 -112.0645616,33.4503952,Childrens Museum of Phoenix,6,4.5,483
 -76.50217119999999,40.0371603,National Watch and Clock Museum,2,4.5,177
--117.1740689,32.720981,Maritime Museum of San Diego,17,4.5,"1,134"
+-117.1740689,32.720981,Maritime Museum of San Diego,17,4.5,1134
 -76.6901049,40.2990817,Antique Automobile Club of America Museum,2,4.5,514
 -77.0403243,38.89385780000001,DAR Museum,75,4.5,132
 -77.0082214,38.8976512,National Postal Museum,36,4.5,634
@@ -297,12 +297,12 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -71.1884858,43.605711,New Hampshire Boat Museum,2,4.5,56
 -84.5399494,39.1435784,American Sign Museum,8,4.5,389
 -103.2061766,44.0736862,Museum of Geology,8,4.5,210
--122.6659597,45.5083437,Oregon Museum of Science and Industry,14,4.5,"1,162"
+-122.6659597,45.5083437,Oregon Museum of Science and Industry,14,4.5,1162
 -71.20500969999999,43.5890851,Wright Museum of WWII,1,5.0,172
 -77.4259727,37.5309106,Virginia Holocaust Museum,9,4.5,265
 -73.597608,40.7285476,Cradle of Aviation Museum,1,4.5,262
--75.176413,39.9621368,Rocky Statue,33,4.0,"1,501"
--77.0259394,38.8887583,Smithsonian Institution Building,31,4.5,"3,248"
+-75.176413,39.9621368,Rocky Statue,33,4.0,1501
+-77.0259394,38.8887583,Smithsonian Institution Building,31,4.5,3248
 -95.9280809,41.2514365,The Durham Museum,2,4.5,677
 -71.4556104,42.997729,Currier Museum of Art,1,4.5,403
 -110.999352,31.9027108,Titan Missile Museum,1,4.5,798
@@ -310,13 +310,13 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -112.0757712,33.4485785,Wells Fargo History Museum,26,4.5,140
 -118.4640338,34.3073618,The Nethercutt Collection,6,5.0,542
 -81.0480063,33.9982938,South Carolina State Museum,4,4.5,421
--87.30819939999999,30.34650959999999,Pensacola Lighthouse and Museum,4,4.5,"1,010"
--81.8064373,24.5579304,Mel Fisher Maritime Heritage Museum,19,4.0,"1,073"
+-87.30819939999999,30.34650959999999,Pensacola Lighthouse and Museum,4,4.5,1010
+-81.8064373,24.5579304,Mel Fisher Maritime Heritage Museum,19,4.0,1073
 -105.5769628,36.4059978,Harwood Museum of Art,16,4.5,136
 -105.9383956,35.6882901,New Mexico History Museum,5,4.5,973
 -77.0379799,38.9051221,National Geographic Museum,69,4.0,531
--84.5176954,38.1516959,Kentucky Horse Park,2,4.5,"1,619"
--123.143839,45.2039669,Evergreen Aviation & Space Museum,1,4.5,"1,037"
+-84.5176954,38.1516959,Kentucky Horse Park,2,4.5,1619
+-123.143839,45.2039669,Evergreen Aviation & Space Museum,1,4.5,1037
 -76.85603859999999,40.2718245,National Civil War Museum,1,4.5,669
 -80.00655189999999,40.4527589,Children's Museum of Pittsburgh,20,4.5,414
 -81.8068935,24.5590428,Key West Shipwreck Treasure Museum,30,4.0,745
@@ -324,7 +324,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -103.2182636,44.0864917,The Journey Museum & Learning Center,10,4.5,247
 -81.8660757,26.6399872,Southwest Florida Museum of History,22,4.0,129
 -82.3703938,29.6359359,Florida Museum of Natural History,2,4.5,582
--118.5649565,34.0455545,The Getty Villa,1,4.5,"1,617"
+-118.5649565,34.0455545,The Getty Villa,1,4.5,1617
 -95.9460524,41.26040829999999,Joslyn Art Museum,5,4.5,539
 -111.8336751,33.4166855,Arizona Museum of Natural History,6,4.5,226
 -78.89927759999999,36.0293105,Museum of Life + Science,3,4.5,629
@@ -332,7 +332,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -122.4013557,37.7857146,San Francisco Museum of Modern Art (SFMOMA),24,4.5,695
 -105.2384931,39.733381,Buffalo Bill Grave and Museum,2,4.0,741
 -105.1932726,39.77178019999999,Colorado Railroad Museum,8,4.0,399
--122.351371,47.619436,Pacific Science Center,40,4.0,"1,083"
+-122.351371,47.619436,Pacific Science Center,40,4.0,1083
 -95.4301132,29.9894725,National Museum of Funeral History,15,4.5,323
 -82.6405387,27.7705369,Florida Holocaust Museum,4,4.5,348
 -87.5974912,41.7892027,Oriental Institute Museum,26,4.5,414
@@ -346,15 +346,15 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -84.3243816,33.7903415,Michael C. Carlos Museum,27,4.5,216
 -82.4499111,27.9422224,Tampa Bay History Center,17,4.5,397
 -74.43353499999999,43.8632911,Adirondack Museum,1,5.0,284
--77.0469952,38.9117567,The Phillips Collection,23,4.5,"1,022"
--77.2313112,39.8280275,Gettysburg Museum of History,5,5.0,"1,147"
+-77.0469952,38.9117567,The Phillips Collection,23,4.5,1022
+-77.2313112,39.8280275,Gettysburg Museum of History,5,5.0,1147
 -89.734944,43.4670303,Circus World,3,4.5,431
 -97.4741673,32.7723442,Texas Civil War Museum,10,4.5,227
 -86.31214709999999,32.37581600000001,Rosa Parks Library and Museum,4,4.5,392
 -75.1913295,39.9492597,Penn Museum,37,4.5,314
 -71.9629566,41.46597329999999,Mashantucket Pequot Museum & Research Center,1,4.5,291
 -118.3383645,34.1010998,The Hollywood Museum,37,4.0,514
--118.3415313,34.1018332,Madame Tussauds Hollywood,23,4.0,"2,203"
+-118.3415313,34.1018332,Madame Tussauds Hollywood,23,4.0,2203
 -83.5149624,41.656577,National Museum of the Great Lakes,4,5.0,150
 -78.9197829,33.6587203,Franklin G. Burroughs - Simeon B. Chapin Art Museum,15,4.5,200
 -76.3201486,40.0435536,North Museum of Nature and Science,30,4.0,58
@@ -365,7 +365,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -104.5278856,33.4043631,Roswell Museum & Art Center,3,4.5,213
 -70.5075672,41.7494461,Heritage Museums & Gardens,1,4.5,609
 -119.767407,39.167732,Nevada State Museum,1,4.5,253
--74.0167676,40.7034555,Ellis Island Immigration Museum,54,4.5,"1,830"
+-74.0167676,40.7034555,Ellis Island Immigration Museum,54,4.5,1830
 -72.6731884,41.7634891,Wadsworth Atheneum Museum of Art,2,4.5,337
 -86.8100693,33.5222197,Birmingham Museum of Art,4,4.5,342
 -81.46910249999999,28.4425971,SKELETONS: Animals Unveiled,31,4.5,396
@@ -409,7 +409,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -84.54813999999999,42.731148,R.E. Olds Transportation Museum,5,4.5,92
 -80.30036559999999,27.4951776,Navy Seal Museum,1,4.5,687
 -81.465459,30.6548171,Amelia Island Museum of History,3,4.5,344
--76.78448159999999,37.2249851,Jamestown Settlement,5,4.5,"2,582"
+-76.78448159999999,37.2249851,Jamestown Settlement,5,4.5,2582
 -77.0528712,42.1426269,The Rockwell Museum,2,4.5,313
 -80.60891629999999,36.4980464,The Andy Griffith Museum,4,4.0,487
 -86.2619266,41.6746957,Studebaker National Museum,3,4.5,333
@@ -417,13 +417,13 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -97.5204289,35.4696942,Oklahoma City Museum of Art,6,4.5,488
 -94.6812086,29.4345626,Galveston Island Railroad Museum and Terminal,11,4.0,361
 -94.5627254,39.0915663,Negro Leagues Baseball Museum,7,4.5,618
--81.87927119999999,26.6343116,Edison & Ford Winter Estates,1,4.5,"3,385"
+-81.87927119999999,26.6343116,Edison & Ford Winter Estates,1,4.5,3385
 -122.4304605,47.2362706,LeMay - America's Car Museum,2,4.5,685
 -104.8176325,41.1395177,Wyoming State Museum,1,4.5,263
 -74.1715152,40.7429731,Newark Museum,4,4.5,193
 -105.0148322,39.7698122,Children's Museum of Denver,1,4.0,349
 -73.9239439,40.756296,Museum of the Moving Image,1,4.5,412
--76.7772486,37.2112563,Historic Jamestowne,1,4.5,"3,419"
+-76.7772486,37.2112563,Historic Jamestowne,1,4.5,3419
 -97.0861247,31.5072444,Texas Ranger Hall of Fame and Museum,2,4.5,464
 -74.0069707,40.7255467,New York City Fire Museum,169,4.5,153
 -81.09911799999999,32.0756717,Savannah History Museum,34,4.0,294
@@ -438,7 +438,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -83.7464178,42.2818262,Ann Arbor Hands-On Museum,2,4.5,335
 -77.580017,43.152852,George Eastman Museum,3,4.5,646
 -82.4614941,27.9495766,Glazer Children's Museum,28,4.0,290
--82.5645578,27.382924,Ca d'Zan Mansion,3,4.5,"1,393"
+-82.5645578,27.382924,Ca d'Zan Mansion,3,4.5,1393
 -80.24392110000001,36.0913133,Children's Museum of Winston-Salem,7,4.5,154
 -83.5878582,32.5921395,Museum of Aviation,1,4.5,445
 -85.7602163,38.2582083,Muhammad Ali Center,9,4.5,669
@@ -450,7 +450,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -90.5735734,34.2001179,The Delta Blues Museum,2,4.5,371
 -81.6107001,38.3379699,West Virginia State Museum,1,4.5,239
 -122.5145406,47.6251241,Bainbridge Island Museum of Art,2,4.5,147
--76.15976409999999,39.9830724,Strasburg Rail Road,3,4.5,"1,449"
+-76.15976409999999,39.9830724,Strasburg Rail Road,3,4.5,1449
 -75.45660509999999,39.1186873,Air Mobility Command Museum,1,5.0,515
 -81.754843,24.5523542,Fort East Martello Museum,46,4.0,293
 -122.0773213,37.4143233,Computer History Museum,1,4.5,510
@@ -481,7 +481,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -74.0326271,41.4939002,Motorcyclepedia Museum,1,5.0,97
 -77.4259749,37.532282,Edgar Allan Poe Museum,16,4.0,270
 -82.46107510000002,27.9499783,Tampa Museum of Art,40,3.5,233
--73.9815265,40.7492094,The Morgan Library & Museum,1,4.5,"1,117"
+-73.9815265,40.7492094,The Morgan Library & Museum,1,4.5,1117
 -112.0379216,43.4905269,Museum of Idaho,2,4.5,176
 -119.8135266,39.5254004,Nevada Museum of Art,12,4.5,209
 -105.9391481,35.68827830000001,New Mexico Museum of Art,17,4.5,396
@@ -494,7 +494,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -94.808398,39.7761724,Glore Psychiatric Museum,3,4.5,161
 -117.024693,34.904829,Route 66 Mother Road Museum,1,4.5,128
 -76.70436339999999,37.2697548,DeWitt Wallace Decorative Arts Museum,9,4.5,403
--90.2844179,38.6361241,Forest Park,6,5.0,"1,715"
+-90.2844179,38.6361241,Forest Park,6,5.0,1715
 -95.398525,29.737593,The Menil Collection,9,4.5,599
 -98.9870797,35.5059995,Oklahoma Route 66 Museum,1,4.5,236
 -73.9603267,40.781264,Neue Galerie,64,4.5,940
@@ -504,7 +504,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -117.3170409,33.1272597,Museum of Making Music,5,4.5,224
 -78.6361093,35.77872869999999,Marbles Kids Museum,4,4.5,738
 -87.92585849999999,43.0410574,Chudnow Museum of Yesteryear,12,5.0,193
--118.8198082,34.2598671,Ronald Reagan Presidential Library and Museum,1,5.0,"1,964"
+-118.8198082,34.2598671,Ronald Reagan Presidential Library and Museum,1,5.0,1964
 -97.9219973,38.065552,Cosmosphere,2,4.5,427
 -84.7961509,34.1683649,Booth Western Art Museum,1,5.0,349
 -119.018899,35.394332,Kern County Museum,1,4.5,173
@@ -517,12 +517,12 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -75.7042803,35.2062626,Graveyard of the Atlantic Museum,4,4.0,326
 -101.9156889,34.9798287,Panhandle-Plains Historical Museum,2,5.0,324
 -94.0145391,41.3334236,John Wayne Birthplace & Museum,3,4.0,221
--110.6973571,35.0241873,Meteor Crater,2,4.0,"2,026"
+-110.6973571,35.0241873,Meteor Crater,2,4.0,2026
 -81.6598171,30.3188771,Museum of Science and History,20,4.0,320
 -88.8590662,30.3937083,Maritime and Seafood Industry Museum,15,4.5,93
 -87.62107069999999,41.8972116,Museum of Contemporary Art,64,4.0,567
 -91.1030558,30.4054836,LSU Rural Life Museum,6,4.5,241
--110.748,43.5209,National Museum of Wildlife Art,1,4.5,"1,158"
+-110.748,43.5209,National Museum of Wildlife Art,1,4.5,1158
 -147.718472,64.860756,Fountainhead Antique Auto Museum,1,5.0,614
 -93.2400457,36.61985780000001,Ralph Foster Museum,2,4.5,240
 -112.47403,34.541476,Sharlot Hall Museum,3,4.5,411
@@ -549,7 +549,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -81.0353293,34.0052907,Columbia Museum of Art,9,4.5,172
 -73.6229319,41.0198569,Bruce Museum,1,4.5,119
 -117.2945325,34.1255224,Original McDonald's Site and Museum,2,4.0,130
--155.27678,19.30149,Thomas A. Jaggar Museum,1,4.5,"1,145"
+-155.27678,19.30149,Thomas A. Jaggar Museum,1,4.5,1145
 -123.808443,39.4025731,Sea Glass Museum,5,4.0,182
 -96.1094348,36.6633463,Woolaroc Museum & Wildlife Preserve,1,5.0,334
 -97.3690098,32.7478552,Amon Carter Museum of American Art,4,5.0,386
@@ -570,7 +570,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -111.7609896,34.8697395,Sedona Heritage Museum,37,4.5,105
 -95.4721932,44.2240081,Laura Ingalls Wilder Museum,1,4.5,88
 -73.8046653,43.0570281,The Saratoga Automobile Museum,6,4.5,185
--82.6318653,27.7770144,Chihuly Collection,3,4.5,"1,335"
+-82.6318653,27.7770144,Chihuly Collection,3,4.5,1335
 -80.1320906,25.7832785,World Erotic Art Museum (WEAM),32,4.0,315
 -81.365143,28.572697,Orlando Museum of Art,119,4.0,118
 -117.2943727,34.5371667,The California Route 66 Museum,1,4.5,136
@@ -578,7 +578,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -84.400832,33.781517,Atlanta History Center,9,4.5,929
 -104.7080218,38.82688,Peterson Air & Space Museum,22,4.5,92
 -84.1619183,30.4865155,Tallahassee Antique Car Museum,3,4.5,334
--77.022893,38.892319,The National Archives Museum,26,4.5,"2,127"
+-77.022893,38.892319,The National Archives Museum,26,4.5,2127
 -107.7570994,32.2667615,Deming Luna Mimbres Museum,1,5.0,173
 -87.7814355,35.9710726,Loretta Lynn's Ranch,1,4.5,323
 -83.5197359,35.713045,Christ in the Smokies Museum & Gardens,9,4.5,436
@@ -593,7 +593,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -78.34503769999999,35.5111406,Ava Gardner Museum,2,4.5,110
 -90.1856452,32.296288,Mississippi Museum of Art,6,4.5,101
 -69.816313,43.8939885,Maine Maritime Museum,1,4.5,409
--81.4686231,28.4431709,Madame Tussauds Orlando,37,4.5,"1,467"
+-81.4686231,28.4431709,Madame Tussauds Orlando,37,4.5,1467
 -79.93165719999999,32.7785154,Gibbes Museum of Art,75,4.0,101
 -120.232134,39.3241405,Donner Memorial State Park and Emigrant Trail Museum,1,4.5,302
 -90.5763225,41.5207614,Figge Art Museum,1,4.5,177
@@ -627,7 +627,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -111.0667563,32.2343854,International Wildlife Museum,24,4.5,198
 -82.13862999999999,38.842756,Mothman Museum,1,4.5,149
 -86.58226239999999,34.6901008,U.S. Veterans Memorial Museum,4,5.0,161
--121.5015785,38.5786754,Old Sacramento,6,4.0,"1,955"
+-121.5015785,38.5786754,Old Sacramento,6,4.0,1955
 -81.6361041,28.7980285,Mount Dora Museum Of Speed,5,4.5,183
 -82.98789719999999,39.9642074,Columbus Museum of Art,16,4.0,299
 -80.8474105,35.2246023,Bechtler Museum of Modern Art,35,4.0,173
@@ -637,7 +637,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -93.0544025,34.5123029,Gangster Museum of America,18,3.5,363
 -110.763716,43.48031599999999,Jackson Hole Museum,24,4.0,102
 -78.84343880000002,42.90591810000001,Buffalo Museum of Science,24,4.0,159
--83.5184699,35.7110973,Ripley's Believe It or Not! Odditorium,25,3.5,"1,307"
+-83.5184699,35.7110973,Ripley's Believe It or Not! Odditorium,25,3.5,1307
 -79.384136,36.643089,Tank Museum,2,4.5,119
 -88.0148912,44.5167159,The Children's Museum of Green Bay,11,4.5,68
 -95.5842117,30.7367948,Texas Prison Museum,1,4.5,150
@@ -654,7 +654,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -84.9795237,32.446854,National Civil War Naval Museum,3,4.5,310
 -88.6799655,34.2599709,Elvis Presley Birthplace & Museum,3,4.5,888
 -155.0866838,19.7259442,Pacific Tsunami Museum,16,4.0,352
--74.03883119999999,40.6284964,Ellis Island,45,4.5,"3,883"
+-74.03883119999999,40.6284964,Ellis Island,45,4.5,3883
 -96.8001488,32.7881462,Nasher Sculpture Center,18,4.5,666
 -95.3968183,29.772019,Art Car Museum,51,4.0,114
 -97.4474679,35.2107414,Fred Jones Jr. Museum of Art,3,4.5,103
@@ -667,7 +667,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -117.8721676,33.7126158,Lyon Air Museum,3,4.5,91
 -87.29206429999999,30.3500222,Pensacola Naval Air Station,2,5.0,758
 -74.87739570000001,41.6966322,The Museum at Bethel Woods,1,4.5,332
--106.6590712,35.1093175,Indian Pueblo Cultural Center,7,4.5,"1,099"
+-106.6590712,35.1093175,Indian Pueblo Cultural Center,7,4.5,1099
 -97.3631054,32.749428,Modern Art Museum of Fort Worth,13,4.5,327
 -82.55612459999999,27.3823626,Sarasota Classic Car Museum,21,4.0,309
 -104.9867312,39.7358466,History Colorado Center,29,4.0,370
@@ -691,7 +691,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -121.9637869,37.3875909,Intel Corp and Museum,1,4.5,158
 -84.34405369999999,30.4104707,Tallahassee Museum,1,4.5,464
 -93.1960229,43.1494891,Charles H. MacNider Art Museum,4,4.5,56
--80.1564955,26.4289656,Morikami Museum & Japanese Gardens,2,4.5,"1,255"
+-80.1564955,26.4289656,Morikami Museum & Japanese Gardens,2,4.5,1255
 -82.40065969999999,34.8564339,Greenville County Museum of Art,17,4.0,139
 -151.5496343,59.6449979,Pratt Museum,3,4.5,271
 -94.8490172,39.7556591,Pony Express Museum,2,4.5,221
@@ -699,8 +699,8 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -73.8963387,40.95414359999999,Hudson River Museum,3,4.0,77
 -72.58634119999999,42.103713,Dr. Seuss National Memorial Sculpture Garden,1,4.5,268
 -122.6265719,47.5630814,Puget Sound Navy Museum,2,4.5,139
--86.61294939999999,36.2150124,Andrew Jackson's Hermitage,7,4.5,"3,120"
--81.2883671,29.8854637,St. Augustine Lighthouse & Maritime Museum,5,4.5,"3,937"
+-86.61294939999999,36.2150124,Andrew Jackson's Hermitage,7,4.5,3120
+-81.2883671,29.8854637,St. Augustine Lighthouse & Maritime Museum,5,4.5,3937
 -80.17502139999999,27.2143933,Elliott Museum,3,4.0,320
 -72.8101887,41.6530611,New Britain Museum of American Art,1,5.0,245
 -91.6617761,41.9661675,National Czech & Slovak Museum & Library,1,4.5,204
@@ -756,7 +756,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -69.107832,44.102125,Maine Lighthouse Museum,3,4.5,149
 -97.3561205,37.6949863,Wichita Art Museum,8,4.5,97
 -77.233369,42.398806,Glenn H. Curtiss Museum,1,5.0,353
--93.235701,36.6144666,College of the Ozarks,1,5.0,"1,603"
+-93.235701,36.6144666,College of the Ozarks,1,5.0,1603
 -76.29884,36.834914,Children's Museum of Virginia,1,4.5,206
 -110.9692234,32.21919,Children's Museum Tucson,19,4.5,169
 -106.5980385,35.1897989,Anderson-Abruzzo International Balloon Museum,12,4.5,407
@@ -772,7 +772,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -117.1504179,32.732119,San Diego Museum of Art,82,4.0,179
 -106.4289415,31.8218893,Fort Bliss and Old Ironsides Museums,10,4.5,101
 -95.8515537,41.2583066,Union Pacific Railroad Museum,1,4.5,188
--71.9667669,41.3616716,Mystic Seaport,1,4.5,"2,091"
+-71.9667669,41.3616716,Mystic Seaport,1,4.5,2091
 -94.6520352,38.8835947,Museum at Prairiefire,7,4.0,134
 -89.97746149999999,35.1257276,Children's Museum of Memphis,23,4.5,182
 -77.3208112,37.5065795,Virginia Aviation Museum,30,4.5,64
@@ -786,7 +786,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -122.1430195,37.4418834,Cantor Arts Center,2,4.5,319
 -77.9841776,42.9783944,Jell-O Gallery Museum,1,4.5,129
 -81.7520522,26.2660219,Golisano Children's Museum of Naples,20,4.5,239
--74.0059413,40.7127837,911 Ground Zero Tour,5,5.0,"2,790"
+-74.0059413,40.7127837,911 Ground Zero Tour,5,5.0,2790
 -94.5627254,39.0915663,American Jazz Museum,43,4.0,172
 -87.8129352,42.5862081,Kenosha Public Museum,2,4.5,125
 -117.1510264,32.7311237,Mingei International Museum,101,4.5,80
@@ -810,7 +810,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -90.8816594,32.3517156,Biedenharn Coca-Cola Museum,11,3.5,241
 -122.2011432,47.6153704,Bellevue Arts Museum (BAM),4,4.0,130
 -118.3560378,34.0747904,Los Angeles Museum of the Holocaust,63,4.5,105
--74.9232415,42.6997009,National Baseball Hall of Fame and Museum,1,4.5,"2,338"
+-74.9232415,42.6997009,National Baseball Hall of Fame and Museum,1,4.5,2338
 -87.2125736,30.40915619999999,T.T. Wentworth Jr. Florida State Museum,22,4.0,87
 -81.488366,40.524882,Warther Museum,1,5.0,266
 -76.3122612,37.0058284,Fort Monroe's Casemate Museum,1,4.5,312
@@ -830,7 +830,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -119.8089704,39.5217158,Terry Lee Wells Nevada Discovery Museum,9,4.5,154
 -77.0291441,38.9001095,National Museum of Women in the Arts,59,4.5,213
 -112.4412901,42.8600319,Museum of Clean,1,4.5,129
--97.7291965,30.2858055,LBJ Presidential Library,3,4.5,"1,714"
+-97.7291965,30.2858055,LBJ Presidential Library,3,4.5,1714
 -90.0528575,35.1487317,Mud Island River Park,16,4.0,679
 -104.9807549,39.7375032,Molly Brown House Museum,15,4.5,848
 -94.5862454,39.0749606,The Money Museum,23,4.0,273
@@ -840,7 +840,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -87.6729641,41.8561698,National Museum of Mexican Art,80,4.5,126
 -81.3151295,29.8915785,Villa Zorayda Museum,41,4.5,264
 -104.8213634,38.8338816,Ghost Town Museum,32,3.5,198
--90.1025426,30.0103282,New Orleans City Park,8,4.5,"2,988"
+-90.1025426,30.0103282,New Orleans City Park,8,4.5,2988
 -73.9382042,40.7879827,Museum Mile,260,4.5,32
 -121.9172563,37.8015087,Blackhawk Museum,1,4.5,211
 -106.2934737,39.2511965,National Mining Hall of Fame & Museum,1,4.5,205
@@ -874,7 +874,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -122.393585,37.7937938,San Francisco Railway Museum,135,4.0,75
 -90.05070110000001,35.1483605,Fire Museum of Memphis,30,4.5,119
 -84.3272197,33.7983632,David J. Sencer CDC Museum,66,4.0,56
--155.6658568,19.5429151,Hawaii Volcanoes National Park,1,4.5,"4,797"
+-155.6658568,19.5429151,Hawaii Volcanoes National Park,1,4.5,4797
 -122.5799414,38.5788949,Sharpsteen Museum,11,4.5,79
 -94.3461484,32.7556764,Jefferson Historical Museum,1,4.5,125
 -72.68414609999999,41.9289672,New England Air Museum,1,4.5,190
@@ -908,10 +908,10 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -80.7941402,28.51876,Valiant Air Command Warbird Museum,3,4.5,223
 -93.3212586,44.9383201,The Bakken Museum,34,4.5,72
 -84.59877379999999,38.0329971,The Aviation Museum of Kentucky,21,4.5,82
--79.8436796,32.764173,Fort Sumter National Monument,9,4.5,"2,387"
+-79.8436796,32.764173,Fort Sumter National Monument,9,4.5,2387
 -122.350849,47.6215818,Seattle Center,20,4.5,893
 -116.4001724,33.7231529,Palm Springs Art Museum in Palm Desert,8,4.5,128
--80.8454667,32.0221802,Tybee Island Lighthouse Museum,2,4.5,"1,627"
+-80.8454667,32.0221802,Tybee Island Lighthouse Museum,2,4.5,1627
 -95.2437656,38.9585612,Biodiversity Institute & Natural History Museum,3,4.5,77
 -106.720585,32.2998886,New Mexico Farm and Ranch Heritage Museum,5,4.5,245
 -79.9312218,32.780744,Confederate Museum,61,4.0,187
@@ -955,7 +955,7 @@ Longitude,Latitude,Museum Name,Rank,Rating,Review Count
 -122.7177995,45.5084759,Portland Children's Museum,35,4.5,266
 -93.6091265,41.5906361,State Historical Museum,14,4.5,115
 -81.4202677,31.0700064,Jekyll Island Museum,6,4.0,233
--86.6503477,34.7121569,U.S. Space and Rocket Center,2,4.5,"1,790"
+-86.6503477,34.7121569,U.S. Space and Rocket Center,2,4.5,1790
 -81.3673008,28.5699932,Mennello Museum of American Art,136,4.0,38
 -106.7636538,32.3199396,White Sands Missile Range,2,4.5,296
 -108.2784182,32.7703688,Silver City Museum,1,4.5,146
