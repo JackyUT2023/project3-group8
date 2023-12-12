@@ -15,8 +15,7 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-    const contents = props ? `<b>${props.name}</b><br />${props.density} people / mi<sup>2</sup>` : 'Hover over a state';
-    this._div.innerHTML = `<h4>US Population Density</h4>${contents}`;
+    this._div.innerHTML = `<h4>US Museum Density</h4>${props ? `<b>${props.name}</b><br />${props.museumCount} museums` : 'Hover over a state'}`;
 };
 
 info.addTo(map);
@@ -24,13 +23,13 @@ info.addTo(map);
 
 // get color depending on population density value
 function getColor(d) {
-    return d > 1000 ? '#800026' :
-        d > 500  ? '#BD0026' :
-        d > 200  ? '#E31A1C' :
-        d > 100  ? '#FC4E2A' :
-        d > 50   ? '#FD8D3C' :
-        d > 20   ? '#FEB24C' :
-        d > 10   ? '#FED976' : '#FFEDA0';
+    return d > 100 ? '#800026' :
+           d > 75  ? '#BD0026' :
+           d > 50  ? '#E31A1C' :
+           d > 25  ? '#FC4E2A' :
+           d > 10  ? '#FD8D3C' :
+           d > 5   ? '#FEB24C' :
+           d > 2   ? '#FED976' : '#FFEDA0';
 }
 
 function style(feature) {
@@ -40,7 +39,7 @@ function style(feature) {
         color: 'white',
         dashArray: '3',
         fillOpacity: 0.7,
-        fillColor: getColor(feature.properties.density)
+        fillColor: getColor(feature.properties.museumCount)
     };
 }
 
@@ -90,7 +89,7 @@ const legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
 
     const div = L.DomUtil.create('div', 'info legend');
-    const grades = [0, 10, 20, 50, 100, 200, 500, 1000];
+    const grades = [0, 2, 5, 10, 25, 50, 75, 100];
     const labels = [];
     let from, to;
 
@@ -110,15 +109,25 @@ legend.addTo(map);
 // ---------------------<test marker start>---------------------------------
 let museum_data_url = "http://127.0.0.1:5000/api/v1.0/museum_data";
 
-let markers =[]
+let stateMuseumCounts = {};
 
-d3.json(museum_data_url).then(function(response){
-    console.log(response);
-    for (i=0; i<response.length; i++){
-        markers.push([response[i].latitude,response[i].longitude]) 
-    };
-    let marker = L.layerGroup(markers)
+d3.json(museum_data_url).then(function(museumData) {
+    // Count museums by state
+    museumData.forEach(museum => {
+        let state = museum.state; // assuming 'state' is the property name in your API data
+        if (!stateMuseumCounts[state]) {
+            stateMuseumCounts[state] = 0;
+        }
+        stateMuseumCounts[state]++;
+    });
 
+    // Add museum counts to the map data
+    for (let feature of statesData.features) {
+        let stateName = feature.properties.name;
+        feature.properties.museumCount = stateMuseumCounts[stateName] || 0;
+    }
+
+    L.geoJson(statesData, { style, onEachFeature }).addTo(map);
 });
 
 const marker = L.geoJson(statesData, {
