@@ -77,16 +77,14 @@ crossorigin=""></script>
                                 <h3>What will be showing in the section</h3>
                                 <p>In this section, the number of museum for each state will be shown on the topright content on the map when you hover over on the state. </p>
                                 <p>Each location of the museums are marked as clustermarkers and shown on the map. When clicking on the state or scrolling up the map, the markers view will change accordingly.</p> 
-
-  
-                                <p>Proximity to Major cities of the State - how many museums are there in a major city vs outside of them will be shown.<br>   
-                                <a style="color: brown;">(Using fake data, the bar chart is showing the museums numbers.)</a></p> 
+                                <p>The states with top 10 museumcounts are shown on the bar plot, if "States" is selected in the dropdown box.<br>
+                                The Top 10 major cities with their museumcounts are shown when "Major City" is selected in the dropdown box.<br>   
                             </tr>
                             <tr>
                                 <!-- Dropdown box and bar chart. -->
-                                <select name="Data" id="MuseumData" style="font-size: 18px;">
+                                <select name="Data" id="MuseumData" style="font-size: 16px;">
                                 <option value="States">States</option>
-                                <option value="MajorCity">MajorCity</option>
+                                <option value="MajorCity">Major City</option>
                                 </select>
                                 <div id="plot1" style="width: 50%;"></div>
                                 <script src="logics_js/plot1.js"></script>                             
@@ -155,7 +153,7 @@ crossorigin=""></script>
                             </tr>
                             <tr>
                                 <!-- Dropdown box and bar chart. -->
-                                <select name="Data" id="MuseumData" style="font-size: 18px;">
+                                <select name="Data" id="FPData" style="font-size: 18px;">
                                 <option value="States">States</option>
                                 <option value="MajorCity">MajorCity</option>
                                 </select>
