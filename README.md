@@ -60,4 +60,9 @@ Story over the minimums.
     - conda install flask-cors
 
 
+Data Sources 
+Museums.csv ref: https://www.kaggle.com/code/priankravichandar/museums-data-analysis#Summary-of-Data-Analysis
+TripAdvisor.csv ref: https://www.tripadvisor.co.uk/Attraction_Review-g28970-d1005305-Reviews-Newseum-Washington_DC_District_of_Columbia.html - API Call
+uscities.csv ref: geoapify.com - API Call
+
 
