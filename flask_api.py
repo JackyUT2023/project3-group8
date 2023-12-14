@@ -10,7 +10,7 @@ from flask_cors import CORS
 
 
 #config a database connection
-DATABASE_URL ='postgresql://postgres:jacky%402023@localhost:5432/us_museums_db'
+DATABASE_URL ='postgresql://postgres:postgres@localhost:5432/us_museums_db'
 engine = create_engine(DATABASE_URL)
 Base = automap_base()
 Base.prepare(autoload_with=engine)
