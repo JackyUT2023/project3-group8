@@ -247,27 +247,3 @@ legend.onAdd = function (map) {
 legend.addTo(map);
 // ----------------------------------------------<Create Legend end>----------------------------------------------
 
-// ----------------------------<layer control>-------------------------------------------------
-
-function CreateLayer(marker){
-    let topo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-});
-
-// Create a baseMaps object.
-let baseMaps = {
-    // "Street Map": tiles,
-    // "Topographic Map": topo
-};
-  
-// Create an overlay object.
-let overlayMaps = {
-    "States": geojson,
-    "Test Marker": marker
-};
-
-L.control.layers(baseMaps,overlayMaps, {
-    collapsed: false
-  }).addTo(map);
-}
-// ---------------------<layer control end>---------------------------------

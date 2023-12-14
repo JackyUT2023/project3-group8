@@ -25,7 +25,7 @@ d3.json(url3).then(function(response){
     let layout = {
       title: "Review Count (Top 10)",
       width: 800,
-      xaxis:{title:"Number of ReviewCount"},
+      yaxis:{title:"Number of ReviewCount"},
     };
     Plotly.newPlot("plot2", data, layout);
   }

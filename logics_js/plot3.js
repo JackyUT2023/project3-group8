@@ -13,79 +13,80 @@ d3.json(url4).then(function(data){
   let plot3_js = [ABGN_js,AM_js,CM_js,GM_js,HP_js,HM_js,NHM_js,STMP_js,ZAWC_js]
 console.log(plot3_js)
 
+const sum = [1, 2, 3].reduce(add, 0);
 
-function init() {
-  // Trace1 for the Greek Data
-let trace1 = {
-  x: ABGN_js,
-  y: ReviewCounts3,
-  name: "ReviewCounts",
-  type: "bar"
-};
+// function init() {
+//   // Trace1 for the Greek Data
+// let trace1 = {
+//   x: ABGN_js,
+//   y: ReviewCounts3,
+//   name: "ReviewCounts",
+//   type: "bar"
+// };
 
-// Trace 2 for the Roman Data
-let trace32 = {
-  x: Museums3,
-  y: RatingKK(Rating3),
-  name: "Rating",
-  type: "bar"
-};
+// // Trace 2 for the Roman Data
+// let trace32 = {
+//   x: Museums3,
+//   y: RatingKK(Rating3),
+//   name: "Rating",
+//   type: "bar"
+// };
 
-// Create data array
-let data3 = [trace31, trace32];
+// // Create data array
+// let data3 = [trace31, trace32];
 
-// Apply a title to the layout
-let layout3 = {
-  title: "ReviewCounts and Rating results",
-  barmode: "group",
-  // Include margins in the layout so the x-tick labels display correctly
-  margin: {
-    l: 50,
-    r: 50,
-    b: 200,
-    t: 50,
-    pad: 4
-  }
-};
+// // Apply a title to the layout
+// let layout3 = {
+//   title: "ReviewCounts and Rating results",
+//   barmode: "group",
+//   // Include margins in the layout so the x-tick labels display correctly
+//   margin: {
+//     l: 50,
+//     r: 50,
+//     b: 200,
+//     t: 50,
+//     pad: 4
+//   }
+// };
 
-// Render the plot to the div tag with id "plot"
-Plotly.newPlot("plot3", data3, layout3);
-}
+// // Render the plot to the div tag with id "plot"
+// Plotly.newPlot("plot3", data3, layout3);
+// }
 
 
-    // Call updatePlotly() when a change takes place to the DOM
-    d3.selectAll("#ReviewData").on("change", updatePlotly);
-    // This function is called when a dropdown menu item is selected
-    function updatePlotly() {
-      // Use D3 to select the dropdown menu
-      let dropdownMenu = d3.select("#ReviewData");
-      // Assign the value of the dropdown menu option to a variable
-      let dataset = dropdownMenu.property("value");
+//     // Call updatePlotly() when a change takes place to the DOM
+//     d3.selectAll("#ReviewData").on("change", updatePlotly);
+//     // This function is called when a dropdown menu item is selected
+//     function updatePlotly() {
+//       // Use D3 to select the dropdown menu
+//       let dropdownMenu = d3.select("#ReviewData");
+//       // Assign the value of the dropdown menu option to a variable
+//       let dataset = dropdownMenu.property("value");
     
-      // Initialize x and y arrays
-      let x = [];
-      let y = [];
+//       // Initialize x and y arrays
+//       let x = [];
+//       let y = [];
   
-      if (dataset === 'Review Count') {
-        x = slicedData_ReviewCount.map(object => object.MuseumName);
-        y = slicedData_ReviewCount.map(object => object.ReviewCount);
-      }
+//       if (dataset === 'Review Count') {
+//         x = slicedData_ReviewCount.map(object => object.MuseumName);
+//         y = slicedData_ReviewCount.map(object => object.ReviewCount);
+//       }
     
-      else if (dataset === 'Rating') {
-        x = plot2_js_2.map(entry => entry.Rating);
-        y = plot2_js_2.map(entry => entry.MuseumCount);
-      }
+//       else if (dataset === 'Rating') {
+//         x = plot2_js_2.map(entry => entry.Rating);
+//         y = plot2_js_2.map(entry => entry.MuseumCount);
+//       }
     
-      // Note the extra brackets around 'x' and 'y'
-      Plotly.restyle("plot2", "x", [x]);
-      Plotly.restyle("plot2", "y", [y]);
-    }
+//       // Note the extra brackets around 'x' and 'y'
+//       Plotly.restyle("plot2", "x", [x]);
+//       Plotly.restyle("plot2", "y", [y]);
+//     }
 
 
 
 
 
-init()
+// init()
 
 });
 
