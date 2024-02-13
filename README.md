@@ -47,10 +47,10 @@ Story over the minimums.
 
 ### TEAM MEMBER ROLES
 --------------------
-- Chandler Mclaren - data cleaning backend - API search
+- Chandler Mclaren - data cleaning backend - Major City API search - SQL Database - Flask App - Heatmap visualization 2
 - Jacky Zhang - Visualization buildout
-- Yug Sharma - SQL/Alchemy/Mongo database along with relational diagrams - use the csvs
-- Ibsar Hashmi - add Bideo.js to the dashboard - Major City/Museum API search
+- Yug Sharma - relational diagrams - use the csvs
+- Ibsar Hashmi - add Bideo.js to the dashboard - Museum API search
 
 ### Page link: https://jackyut2023.github.io/project3-group8/
 
